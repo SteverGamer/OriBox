@@ -1,0 +1,5 @@
+V1.4: loadstring(game:HttpGet("https://raw.githubusercontent.com/SteverGamer/OriBox/main/Beta%201.4"))()
+
+V1.5: loadstring(game:HttpGet("https://raw.githubusercontent.com/SteverGamer/OriBox/main/Beta%201.5"))()
+
+V1.7: loadstring(game:HttpGet("https://raw.githubusercontent.com/SteverGamer/OriBox/main/Beta%201.7%20(We%20hate%206)"))()
