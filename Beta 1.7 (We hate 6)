@@ -1,0 +1,1536 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_OriBoxBETA1.7"] = Instance.new("ScreenGui");
+	["_Bg"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_Keybg"] = Instance.new("Frame");
+	["_TextBox"] = Instance.new("TextBox");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_Submit"] = Instance.new("TextButton");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_UIGradient"] = Instance.new("UIGradient");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_LegalMumbo"] = Instance.new("TextButton");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_LegalShit"] = Instance.new("ImageLabel");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_UIGradient1"] = Instance.new("UIGradient");
+	["_NewOriBox"] = Instance.new("Frame");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_UIGradient2"] = Instance.new("UIGradient");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_Loader"] = Instance.new("ModuleScript");
+	["_ButtonSplitter"] = Instance.new("Frame");
+	["_Button"] = Instance.new("TextLabel");
+	["_ButtonName"] = Instance.new("TextBox");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_SliderSplitter"] = Instance.new("Frame");
+	["_Toggle"] = Instance.new("TextLabel");
+	["_SliderName"] = Instance.new("TextBox");
+	["_UICorner6"] = Instance.new("UICorner");
+	["_SliderVName"] = Instance.new("TextBox");
+	["_UICorner7"] = Instance.new("UICorner");
+	["_SliderMin"] = Instance.new("TextBox");
+	["_UICorner8"] = Instance.new("UICorner");
+	["_SliderMax"] = Instance.new("TextBox");
+	["_UICorner9"] = Instance.new("UICorner");
+	["_SliderDefualt"] = Instance.new("TextBox");
+	["_UICorner10"] = Instance.new("UICorner");
+	["_SliderIncr"] = Instance.new("TextBox");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_Splitter"] = Instance.new("Frame");
+	["_WindowButton"] = Instance.new("TextButton");
+	["_UICorner12"] = Instance.new("UICorner");
+	["_LocalScript4"] = Instance.new("LocalScript");
+	["_TabButton"] = Instance.new("TextButton");
+	["_UICorner13"] = Instance.new("UICorner");
+	["_LocalScript5"] = Instance.new("LocalScript");
+	["_ButtonButton"] = Instance.new("TextButton");
+	["_UICorner14"] = Instance.new("UICorner");
+	["_LocalScript6"] = Instance.new("LocalScript");
+	["_CodeButton"] = Instance.new("TextButton");
+	["_UICorner15"] = Instance.new("UICorner");
+	["_LocalScript7"] = Instance.new("LocalScript");
+	["_ToggleButton"] = Instance.new("TextButton");
+	["_UICorner16"] = Instance.new("UICorner");
+	["_LocalScript8"] = Instance.new("LocalScript");
+	["_SliderButton"] = Instance.new("TextButton");
+	["_UICorner17"] = Instance.new("UICorner");
+	["_LocalScript9"] = Instance.new("LocalScript");
+	["_TextBoxButton"] = Instance.new("TextButton");
+	["_UICorner18"] = Instance.new("UICorner");
+	["_LocalScript10"] = Instance.new("LocalScript");
+	["_SourceButton"] = Instance.new("TextButton");
+	["_UICorner19"] = Instance.new("UICorner");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_TabSplitter"] = Instance.new("Frame");
+	["_Tab"] = Instance.new("TextLabel");
+	["_TabName"] = Instance.new("TextBox");
+	["_UICorner20"] = Instance.new("UICorner");
+	["_TextBoxSplitter"] = Instance.new("Frame");
+	["_Toggle1"] = Instance.new("TextLabel");
+	["_SliderName1"] = Instance.new("TextBox");
+	["_UICorner21"] = Instance.new("UICorner");
+	["_SliderDefualt1"] = Instance.new("TextBox");
+	["_UICorner22"] = Instance.new("UICorner");
+	["_ToggleSplitter"] = Instance.new("Frame");
+	["_Toggle2"] = Instance.new("TextLabel");
+	["_ToggleName"] = Instance.new("TextBox");
+	["_UICorner23"] = Instance.new("UICorner");
+	["_WindowSplitter"] = Instance.new("Frame");
+	["_Window"] = Instance.new("TextLabel");
+	["_WinName"] = Instance.new("TextBox");
+	["_UICorner24"] = Instance.new("UICorner");
+	["_Option"] = Instance.new("StringValue");
+	["_Title"] = Instance.new("TextLabel");
+	["_UIGradient3"] = Instance.new("UIGradient");
+	["_UISource"] = Instance.new("ScrollingFrame");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_UIGradient4"] = Instance.new("UIGradient");
+	["_TextBox1"] = Instance.new("TextBox");
+	["_NumOfLines"] = Instance.new("TextLabel");
+	["_LineIncreaser"] = Instance.new("LocalScript");
+	["_LineIncreaser1"] = Instance.new("LocalScript");
+	["_CodeHolder"] = Instance.new("Frame");
+	["_EditorFrame"] = Instance.new("ScrollingFrame");
+	["_Source"] = Instance.new("TextBox");
+	["_Globals_"] = Instance.new("TextLabel");
+	["_Keywords_"] = Instance.new("TextLabel");
+	["_RemoteHighlight_"] = Instance.new("TextLabel");
+	["_Strings_"] = Instance.new("TextLabel");
+	["_Tokens_"] = Instance.new("TextLabel");
+	["_Numbers_"] = Instance.new("TextLabel");
+	["_Strings2_"] = Instance.new("TextLabel");
+	["_Strings3_"] = Instance.new("TextLabel");
+	["_Comments_"] = Instance.new("TextLabel");
+	["_Comments2_"] = Instance.new("TextLabel");
+	["_Lines"] = Instance.new("TextLabel");
+	["_UIStroke4"] = Instance.new("UIStroke");
+	["_UIGradient5"] = Instance.new("UIGradient");
+	["_Button1"] = Instance.new("TextLabel");
+	["_MainScript"] = Instance.new("LocalScript");
+	["_Close"] = Instance.new("TextButton");
+	["_LocalScript12"] = Instance.new("LocalScript");
+	["_UICorner25"] = Instance.new("UICorner");
+	["_TextLabel1"] = Instance.new("TextLabel");
+}
+
+-- Properties:
+
+Converted["_OriBoxBETA1.7"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_OriBoxBETA1.7"].Name = "OriBoxBETA1.7"
+Converted["_OriBoxBETA1.7"].Parent = game.CoreGui
+
+Converted["_Bg"].BackgroundColor3 = Color3.fromRGB(48.000000938773155, 48.000000938773155, 48.000000938773155)
+Converted["_Bg"].Position = UDim2.new(0.286532938, 0, 0.344444513, 0)
+Converted["_Bg"].Size = UDim2.new(0, 400, 0, 250)
+Converted["_Bg"].Visible = false
+Converted["_Bg"].Name = "Bg"
+Converted["_Bg"].Parent = Converted["_OriBoxBETA1.7"]
+
+Converted["_UICorner"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner"].Parent = Converted["_Bg"]
+
+Converted["_Keybg"].BackgroundColor3 = Color3.fromRGB(62.00000010430813, 62.00000010430813, 62.00000010430813)
+Converted["_Keybg"].Position = UDim2.new(0.25, 0, 0.456, 0)
+Converted["_Keybg"].Size = UDim2.new(0, 200, 0, 40)
+Converted["_Keybg"].Name = "Keybg"
+Converted["_Keybg"].Parent = Converted["_Bg"]
+
+Converted["_TextBox"].Font = Enum.Font.Ubuntu
+Converted["_TextBox"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_TextBox"].PlaceholderText = "Key here"
+Converted["_TextBox"].Text = ""
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].TextScaled = true
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].TextWrapped = true
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].BackgroundTransparency = 1
+Converted["_TextBox"].BorderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].Size = UDim2.new(0, 200, 0, 40)
+Converted["_TextBox"].Parent = Converted["_Keybg"]
+
+Converted["_UICorner1"].Parent = Converted["_Keybg"]
+
+Converted["_Submit"].Font = Enum.Font.Unknown
+Converted["_Submit"].Text = "Submit"
+Converted["_Submit"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_Submit"].TextSize = 20
+Converted["_Submit"].BackgroundColor3 = Color3.fromRGB(62.00000010430813, 62.00000010430813, 62.00000010430813)
+Converted["_Submit"].Position = UDim2.new(0.287499994, 0, 0.69599998, 0)
+Converted["_Submit"].Size = UDim2.new(0, 170, 0, 40)
+Converted["_Submit"].Name = "Submit"
+Converted["_Submit"].Parent = Converted["_Bg"]
+
+Converted["_UICorner2"].Parent = Converted["_Submit"]
+
+Converted["_UIStroke"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke"].Thickness = 5
+Converted["_UIStroke"].Parent = Converted["_Bg"]
+
+Converted["_UIGradient"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
+}
+Converted["_UIGradient"].Parent = Converted["_UIStroke"]
+
+Converted["_TextLabel"].Font = Enum.Font.Ubuntu
+Converted["_TextLabel"].Text = "OriBox Devkit"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_TextLabel"].TextSize = 41
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].Position = UDim2.new(0.25, 0, 0.0439999998, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_TextLabel"].Parent = Converted["_Bg"]
+
+Converted["_LegalMumbo"].Font = Enum.Font.Unknown
+Converted["_LegalMumbo"].Text = "Legal IP stuff"
+Converted["_LegalMumbo"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_LegalMumbo"].TextSize = 16
+Converted["_LegalMumbo"].TextWrapped = true
+Converted["_LegalMumbo"].BackgroundColor3 = Color3.fromRGB(62.00000010430813, 62.00000010430813, 62.00000010430813)
+Converted["_LegalMumbo"].Position = UDim2.new(0.00249999994, 0, 0.69599998, 0)
+Converted["_LegalMumbo"].Size = UDim2.new(0, 104, 0, 40)
+Converted["_LegalMumbo"].Visible = false
+Converted["_LegalMumbo"].Name = "LegalMumbo"
+Converted["_LegalMumbo"].Parent = Converted["_Bg"]
+
+Converted["_UICorner3"].Parent = Converted["_LegalMumbo"]
+
+Converted["_LegalShit"].Image = "http://www.roblox.com/asset/?id=13565928688"
+Converted["_LegalShit"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_LegalShit"].Position = UDim2.new(-1.02346158, 0, -7.54910326, 0)
+Converted["_LegalShit"].Size = UDim2.new(0, 610, 0, 100)
+Converted["_LegalShit"].Name = "LegalShit"
+Converted["_LegalShit"].Parent = Converted["_LegalMumbo"]
+
+Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke1"].Thickness = 5
+Converted["_UIStroke1"].Parent = Converted["_LegalShit"]
+
+Converted["_UIGradient1"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
+}
+Converted["_UIGradient1"].Parent = Converted["_UIStroke1"]
+
+Converted["_NewOriBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_NewOriBox"].Position = UDim2.new(0.011119348, 0, 0.0296296291, 0)
+Converted["_NewOriBox"].Size = UDim2.new(0, 394, 0, 761)
+Converted["_NewOriBox"].AutoLocalize = false
+Converted["_NewOriBox"].Name = "NewOriBox"
+Converted["_NewOriBox"].Parent = Converted["_OriBoxBETA1.7"]
+
+Converted["_UICorner4"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner4"].Parent = Converted["_NewOriBox"]
+
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke2"].Thickness = 5
+Converted["_UIStroke2"].Parent = Converted["_NewOriBox"]
+
+Converted["_UIGradient2"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
+}
+Converted["_UIGradient2"].Rotation = 90
+Converted["_UIGradient2"].Parent = Converted["_UIStroke2"]
+
+Converted["_ButtonSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_ButtonSplitter"].BorderSizePixel = 0
+Converted["_ButtonSplitter"].Position = UDim2.new(-0.000722275174, 0, 0.412475109, 0)
+Converted["_ButtonSplitter"].Size = UDim2.new(0, 394, 0, 4)
+Converted["_ButtonSplitter"].Name = "ButtonSplitter"
+Converted["_ButtonSplitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_Button"].Font = Enum.Font.Ubuntu
+Converted["_Button"].Text = "Button Settings"
+Converted["_Button"].TextColor3 = Color3.fromRGB(188.0000039935112, 188.0000039935112, 188.0000039935112)
+Converted["_Button"].TextScaled = true
+Converted["_Button"].TextSize = 14
+Converted["_Button"].TextWrapped = true
+Converted["_Button"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button"].BackgroundTransparency = 1
+Converted["_Button"].Position = UDim2.new(0.344098568, 0, -21.2361603, 0)
+Converted["_Button"].Size = UDim2.new(0, 121, 0, 21)
+Converted["_Button"].Name = "Button"
+Converted["_Button"].Parent = Converted["_ButtonSplitter"]
+
+Converted["_ButtonName"].Font = Enum.Font.Ubuntu
+Converted["_ButtonName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_ButtonName"].PlaceholderText = "Name"
+Converted["_ButtonName"].Text = ""
+Converted["_ButtonName"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ButtonName"].TextScaled = true
+Converted["_ButtonName"].TextSize = 14
+Converted["_ButtonName"].TextWrapped = true
+Converted["_ButtonName"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_ButtonName"].Position = UDim2.new(0.0197958183, 0, -5.24227142, 0)
+Converted["_ButtonName"].Size = UDim2.new(0, 49, 0, 13)
+Converted["_ButtonName"].Name = "ButtonName"
+Converted["_ButtonName"].Parent = Converted["_ButtonSplitter"]
+
+Converted["_UICorner5"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner5"].Parent = Converted["_ButtonName"]
+
+Converted["_SliderSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_SliderSplitter"].BorderSizePixel = 0
+Converted["_SliderSplitter"].Position = UDim2.new(-0.000719022006, 0, 0.643081546, 0)
+Converted["_SliderSplitter"].Size = UDim2.new(0, 394, 0, 4)
+Converted["_SliderSplitter"].Name = "SliderSplitter"
+Converted["_SliderSplitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_Toggle"].Font = Enum.Font.Ubuntu
+Converted["_Toggle"].Text = "Slider Settings"
+Converted["_Toggle"].TextColor3 = Color3.fromRGB(188.0000039935112, 188.0000039935112, 188.0000039935112)
+Converted["_Toggle"].TextScaled = true
+Converted["_Toggle"].TextSize = 14
+Converted["_Toggle"].TextWrapped = true
+Converted["_Toggle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggle"].BackgroundTransparency = 1
+Converted["_Toggle"].Position = UDim2.new(0.341752529, 0, -19.3453598, 0)
+Converted["_Toggle"].Size = UDim2.new(0, 125, 0, 19)
+Converted["_Toggle"].Name = "Toggle"
+Converted["_Toggle"].Parent = Converted["_SliderSplitter"]
+
+Converted["_SliderName"].Font = Enum.Font.Ubuntu
+Converted["_SliderName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderName"].PlaceholderText = "Name"
+Converted["_SliderName"].Text = ""
+Converted["_SliderName"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderName"].TextScaled = true
+Converted["_SliderName"].TextSize = 14
+Converted["_SliderName"].TextWrapped = true
+Converted["_SliderName"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderName"].Position = UDim2.new(0.0383156314, 0, -12.8064728, 0)
+Converted["_SliderName"].Size = UDim2.new(0, 44, 0, 18)
+Converted["_SliderName"].Name = "SliderName"
+Converted["_SliderName"].Parent = Converted["_SliderSplitter"]
+
+Converted["_UICorner6"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner6"].Parent = Converted["_SliderName"]
+
+Converted["_SliderVName"].Font = Enum.Font.Ubuntu
+Converted["_SliderVName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderVName"].PlaceholderText = "Value Name"
+Converted["_SliderVName"].Text = ""
+Converted["_SliderVName"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderVName"].TextScaled = true
+Converted["_SliderVName"].TextSize = 14
+Converted["_SliderVName"].TextWrapped = true
+Converted["_SliderVName"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderVName"].Position = UDim2.new(0.194310188, 0, -13.6023788, 0)
+Converted["_SliderVName"].Size = UDim2.new(0, 44, 0, 21)
+Converted["_SliderVName"].Name = "SliderVName"
+Converted["_SliderVName"].Parent = Converted["_SliderSplitter"]
+
+Converted["_UICorner7"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner7"].Parent = Converted["_SliderVName"]
+
+Converted["_SliderMin"].Font = Enum.Font.Ubuntu
+Converted["_SliderMin"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderMin"].PlaceholderText = "Minimum Value"
+Converted["_SliderMin"].Text = ""
+Converted["_SliderMin"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderMin"].TextScaled = true
+Converted["_SliderMin"].TextSize = 14
+Converted["_SliderMin"].TextWrapped = true
+Converted["_SliderMin"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderMin"].Position = UDim2.new(0.352794588, 0, -13.4697342, 0)
+Converted["_SliderMin"].Size = UDim2.new(0, 44, 0, 21)
+Converted["_SliderMin"].Name = "SliderMin"
+Converted["_SliderMin"].Parent = Converted["_SliderSplitter"]
+
+Converted["_UICorner8"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner8"].Parent = Converted["_SliderMin"]
+
+Converted["_SliderMax"].Font = Enum.Font.Ubuntu
+Converted["_SliderMax"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderMax"].PlaceholderText = "Maximum Value"
+Converted["_SliderMax"].Text = ""
+Converted["_SliderMax"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderMax"].TextScaled = true
+Converted["_SliderMax"].TextSize = 14
+Converted["_SliderMax"].TextWrapped = true
+Converted["_SliderMax"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderMax"].Position = UDim2.new(0.512223363, 0, -13.8676987, 0)
+Converted["_SliderMax"].Size = UDim2.new(0, 44, 0, 23)
+Converted["_SliderMax"].Name = "SliderMax"
+Converted["_SliderMax"].Parent = Converted["_SliderSplitter"]
+
+Converted["_UICorner9"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner9"].Parent = Converted["_SliderMax"]
+
+Converted["_SliderDefualt"].Font = Enum.Font.Ubuntu
+Converted["_SliderDefualt"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderDefualt"].PlaceholderText = "Starter Value"
+Converted["_SliderDefualt"].Text = ""
+Converted["_SliderDefualt"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderDefualt"].TextScaled = true
+Converted["_SliderDefualt"].TextSize = 14
+Converted["_SliderDefualt"].TextWrapped = true
+Converted["_SliderDefualt"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderDefualt"].Position = UDim2.new(0.668861985, 0, -14.0003433, 0)
+Converted["_SliderDefualt"].Size = UDim2.new(0, 44, 0, 23)
+Converted["_SliderDefualt"].Name = "SliderDefualt"
+Converted["_SliderDefualt"].Parent = Converted["_SliderSplitter"]
+
+Converted["_UICorner10"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner10"].Parent = Converted["_SliderDefualt"]
+
+Converted["_SliderIncr"].Font = Enum.Font.Ubuntu
+Converted["_SliderIncr"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderIncr"].PlaceholderText = "Increcment Value"
+Converted["_SliderIncr"].Text = ""
+Converted["_SliderIncr"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderIncr"].TextScaled = true
+Converted["_SliderIncr"].TextSize = 14
+Converted["_SliderIncr"].TextWrapped = true
+Converted["_SliderIncr"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderIncr"].Position = UDim2.new(0.82957387, 0, -14.5309601, 0)
+Converted["_SliderIncr"].Size = UDim2.new(0, 62, 0, 26)
+Converted["_SliderIncr"].Name = "SliderIncr"
+Converted["_SliderIncr"].Parent = Converted["_SliderSplitter"]
+
+Converted["_UICorner11"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner11"].Parent = Converted["_SliderIncr"]
+
+Converted["_Splitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_Splitter"].BackgroundTransparency = 1
+Converted["_Splitter"].BorderSizePixel = 0
+Converted["_Splitter"].Position = UDim2.new(0.856629431, 0, -0.00657042256, 0)
+Converted["_Splitter"].Size = UDim2.new(0, 5, 0, 586)
+Converted["_Splitter"].Name = "Splitter"
+Converted["_Splitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_WindowButton"].Font = Enum.Font.Ubuntu
+Converted["_WindowButton"].Text = "Create"
+Converted["_WindowButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_WindowButton"].TextScaled = true
+Converted["_WindowButton"].TextSize = 14
+Converted["_WindowButton"].TextWrapped = true
+Converted["_WindowButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_WindowButton"].Position = UDim2.new(-54.9840012, 0, 0.204999998, 0)
+Converted["_WindowButton"].Size = UDim2.new(0, 69, 0, 23)
+Converted["_WindowButton"].Name = "WindowButton"
+Converted["_WindowButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner12"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner12"].Parent = Converted["_WindowButton"]
+
+Converted["_TabButton"].Font = Enum.Font.Ubuntu
+Converted["_TabButton"].Text = "Create"
+Converted["_TabButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_TabButton"].TextScaled = true
+Converted["_TabButton"].TextSize = 14
+Converted["_TabButton"].TextWrapped = true
+Converted["_TabButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_TabButton"].Position = UDim2.new(-54.9840012, 0, 0.0221843012, 186)
+Converted["_TabButton"].Size = UDim2.new(0, 69, 0, 23)
+Converted["_TabButton"].Name = "TabButton"
+Converted["_TabButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner13"].Parent = Converted["_TabButton"]
+
+Converted["_ButtonButton"].Font = Enum.Font.Ubuntu
+Converted["_ButtonButton"].Text = "Create"
+Converted["_ButtonButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_ButtonButton"].TextScaled = true
+Converted["_ButtonButton"].TextSize = 14
+Converted["_ButtonButton"].TextWrapped = true
+Converted["_ButtonButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_ButtonButton"].Position = UDim2.new(-54.9835472, 0, 0.49951452, 0)
+Converted["_ButtonButton"].Size = UDim2.new(0, 69, 0, 23)
+Converted["_ButtonButton"].Name = "ButtonButton"
+Converted["_ButtonButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner14"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner14"].Parent = Converted["_ButtonButton"]
+
+Converted["_CodeButton"].Font = Enum.Font.Ubuntu
+Converted["_CodeButton"].Text = "Build Script"
+Converted["_CodeButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_CodeButton"].TextSize = 27
+Converted["_CodeButton"].TextWrapped = true
+Converted["_CodeButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_CodeButton"].Position = UDim2.new(-63.2169952, 0, 1.20772779, 0)
+Converted["_CodeButton"].Size = UDim2.new(0, 130, 0, 47)
+Converted["_CodeButton"].Name = "CodeButton"
+Converted["_CodeButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner15"].Parent = Converted["_CodeButton"]
+
+Converted["_ToggleButton"].Font = Enum.Font.Ubuntu
+Converted["_ToggleButton"].Text = "Create"
+Converted["_ToggleButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_ToggleButton"].TextScaled = true
+Converted["_ToggleButton"].TextSize = 14
+Converted["_ToggleButton"].TextWrapped = true
+Converted["_ToggleButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_ToggleButton"].Position = UDim2.new(-54.9840012, 0, 0.660000026, 0)
+Converted["_ToggleButton"].Size = UDim2.new(0, 69, 0, 23)
+Converted["_ToggleButton"].Name = "ToggleButton"
+Converted["_ToggleButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner16"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner16"].Parent = Converted["_ToggleButton"]
+
+Converted["_SliderButton"].Font = Enum.Font.Ubuntu
+Converted["_SliderButton"].Text = "Create"
+Converted["_SliderButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderButton"].TextScaled = true
+Converted["_SliderButton"].TextSize = 14
+Converted["_SliderButton"].TextWrapped = true
+Converted["_SliderButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_SliderButton"].Position = UDim2.new(-54.9840012, 0, 0.802999973, 0)
+Converted["_SliderButton"].Size = UDim2.new(0, 69, 0, 23)
+Converted["_SliderButton"].Name = "SliderButton"
+Converted["_SliderButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner17"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner17"].Parent = Converted["_SliderButton"]
+
+Converted["_TextBoxButton"].Font = Enum.Font.Ubuntu
+Converted["_TextBoxButton"].Text = "Create"
+Converted["_TextBoxButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_TextBoxButton"].TextScaled = true
+Converted["_TextBoxButton"].TextSize = 14
+Converted["_TextBoxButton"].TextWrapped = true
+Converted["_TextBoxButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_TextBoxButton"].Position = UDim2.new(-55.6563644, 0, 0.942072153, 0)
+Converted["_TextBoxButton"].Size = UDim2.new(0, 69, 0, 23)
+Converted["_TextBoxButton"].Name = "TextBoxButton"
+Converted["_TextBoxButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner18"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner18"].Parent = Converted["_TextBoxButton"]
+
+Converted["_SourceButton"].Font = Enum.Font.Ubuntu
+Converted["_SourceButton"].Text = "UI Source"
+Converted["_SourceButton"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SourceButton"].TextSize = 27
+Converted["_SourceButton"].TextWrapped = true
+Converted["_SourceButton"].BackgroundColor3 = Color3.fromRGB(100.00000923871994, 100.00000923871994, 100.00000923871994)
+Converted["_SourceButton"].Position = UDim2.new(-20.2169991, 0, 1.20772767, 0)
+Converted["_SourceButton"].Size = UDim2.new(0, 129, 0, 47)
+Converted["_SourceButton"].Name = "SourceButton"
+Converted["_SourceButton"].Parent = Converted["_Splitter"]
+
+Converted["_UICorner19"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner19"].Parent = Converted["_SourceButton"]
+
+Converted["_TabSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_TabSplitter"].BorderSizePixel = 0
+Converted["_TabSplitter"].Position = UDim2.new(0.000125865641, 0, 0.29576683, 0)
+Converted["_TabSplitter"].Size = UDim2.new(0, 394, 0, 4)
+Converted["_TabSplitter"].Name = "TabSplitter"
+Converted["_TabSplitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_Tab"].Font = Enum.Font.Ubuntu
+Converted["_Tab"].Text = "Tab Settings"
+Converted["_Tab"].TextColor3 = Color3.fromRGB(188.0000039935112, 188.0000039935112, 188.0000039935112)
+Converted["_Tab"].TextScaled = true
+Converted["_Tab"].TextSize = 14
+Converted["_Tab"].TextWrapped = true
+Converted["_Tab"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tab"].BackgroundTransparency = 1
+Converted["_Tab"].Position = UDim2.new(0.364182919, 0, -19.888031, 0)
+Converted["_Tab"].Size = UDim2.new(0, 118, 0, 18)
+Converted["_Tab"].Name = "Tab"
+Converted["_Tab"].Parent = Converted["_TabSplitter"]
+
+Converted["_TabName"].Font = Enum.Font.Ubuntu
+Converted["_TabName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_TabName"].PlaceholderText = "Name"
+Converted["_TabName"].Text = ""
+Converted["_TabName"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TabName"].TextScaled = true
+Converted["_TabName"].TextSize = 14
+Converted["_TabName"].TextWrapped = true
+Converted["_TabName"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_TabName"].Position = UDim2.new(0.0197251607, 0, -5.22893524, 0)
+Converted["_TabName"].Size = UDim2.new(0, 49, 0, 13)
+Converted["_TabName"].Name = "TabName"
+Converted["_TabName"].Parent = Converted["_TabSplitter"]
+
+Converted["_UICorner20"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner20"].Parent = Converted["_TabName"]
+
+Converted["_TextBoxSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_TextBoxSplitter"].BorderSizePixel = 0
+Converted["_TextBoxSplitter"].Position = UDim2.new(-0.00071909948, 0, 0.757665098, 0)
+Converted["_TextBoxSplitter"].Size = UDim2.new(0, 396, 0, 4)
+Converted["_TextBoxSplitter"].Name = "TextBoxSplitter"
+Converted["_TextBoxSplitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_Toggle1"].Font = Enum.Font.Ubuntu
+Converted["_Toggle1"].Text = "Text box"
+Converted["_Toggle1"].TextColor3 = Color3.fromRGB(188.0000039935112, 188.0000039935112, 188.0000039935112)
+Converted["_Toggle1"].TextScaled = true
+Converted["_Toggle1"].TextSize = 14
+Converted["_Toggle1"].TextWrapped = true
+Converted["_Toggle1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggle1"].BackgroundTransparency = 1
+Converted["_Toggle1"].Position = UDim2.new(0.32796067, 0, -17.6203537, 0)
+Converted["_Toggle1"].Size = UDim2.new(0, 131, 0, 20)
+Converted["_Toggle1"].Name = "Toggle"
+Converted["_Toggle1"].Parent = Converted["_TextBoxSplitter"]
+
+Converted["_SliderName1"].Font = Enum.Font.Ubuntu
+Converted["_SliderName1"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderName1"].PlaceholderText = "Name"
+Converted["_SliderName1"].Text = ""
+Converted["_SliderName1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderName1"].TextScaled = true
+Converted["_SliderName1"].TextSize = 14
+Converted["_SliderName1"].TextWrapped = true
+Converted["_SliderName1"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderName1"].Position = UDim2.new(0.0257803798, 0, -14.8246002, 0)
+Converted["_SliderName1"].Size = UDim2.new(0, 44, 0, 20)
+Converted["_SliderName1"].Name = "SliderName"
+Converted["_SliderName1"].Parent = Converted["_TextBoxSplitter"]
+
+Converted["_UICorner21"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner21"].Parent = Converted["_SliderName1"]
+
+Converted["_SliderDefualt1"].Font = Enum.Font.Ubuntu
+Converted["_SliderDefualt1"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_SliderDefualt1"].PlaceholderText = "Starter Value"
+Converted["_SliderDefualt1"].Text = ""
+Converted["_SliderDefualt1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_SliderDefualt1"].TextScaled = true
+Converted["_SliderDefualt1"].TextSize = 14
+Converted["_SliderDefualt1"].TextWrapped = true
+Converted["_SliderDefualt1"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_SliderDefualt1"].Position = UDim2.new(0.187592402, 0, -14.8246002, 0)
+Converted["_SliderDefualt1"].Size = UDim2.new(0, 44, 0, 20)
+Converted["_SliderDefualt1"].Name = "SliderDefualt"
+Converted["_SliderDefualt1"].Parent = Converted["_TextBoxSplitter"]
+
+Converted["_UICorner22"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner22"].Parent = Converted["_SliderDefualt1"]
+
+Converted["_ToggleSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_ToggleSplitter"].BorderSizePixel = 0
+Converted["_ToggleSplitter"].Position = UDim2.new(-0.000719176955, 0, 0.536636949, 0)
+Converted["_ToggleSplitter"].Size = UDim2.new(0, 394, 0, 4)
+Converted["_ToggleSplitter"].Name = "ToggleSplitter"
+Converted["_ToggleSplitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_Toggle2"].Font = Enum.Font.Ubuntu
+Converted["_Toggle2"].Text = "Checkbox Settings"
+Converted["_Toggle2"].TextColor3 = Color3.fromRGB(188.0000039935112, 188.0000039935112, 188.0000039935112)
+Converted["_Toggle2"].TextScaled = true
+Converted["_Toggle2"].TextSize = 14
+Converted["_Toggle2"].TextWrapped = true
+Converted["_Toggle2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggle2"].BackgroundTransparency = 1
+Converted["_Toggle2"].Position = UDim2.new(0.327804118, 0, -22.6856079, 0)
+Converted["_Toggle2"].Size = UDim2.new(0, 137, 0, 18)
+Converted["_Toggle2"].Name = "Toggle"
+Converted["_Toggle2"].Parent = Converted["_ToggleSplitter"]
+
+Converted["_ToggleName"].Font = Enum.Font.Ubuntu
+Converted["_ToggleName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_ToggleName"].PlaceholderText = "Name"
+Converted["_ToggleName"].Text = ""
+Converted["_ToggleName"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ToggleName"].TextScaled = true
+Converted["_ToggleName"].TextSize = 14
+Converted["_ToggleName"].TextWrapped = true
+Converted["_ToggleName"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_ToggleName"].Position = UDim2.new(0.0197379794, 0, -5.28955078, 0)
+Converted["_ToggleName"].Size = UDim2.new(0, 49, 0, 13)
+Converted["_ToggleName"].Name = "ToggleName"
+Converted["_ToggleName"].Parent = Converted["_ToggleSplitter"]
+
+Converted["_UICorner23"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner23"].Parent = Converted["_ToggleName"]
+
+Converted["_WindowSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
+Converted["_WindowSplitter"].BorderSizePixel = 0
+Converted["_WindowSplitter"].Position = UDim2.new(0.000125788196, 0, 0.186207771, 0)
+Converted["_WindowSplitter"].Size = UDim2.new(0, 394, 0, 4)
+Converted["_WindowSplitter"].Name = "WindowSplitter"
+Converted["_WindowSplitter"].Parent = Converted["_NewOriBox"]
+
+Converted["_Window"].Font = Enum.Font.Ubuntu
+Converted["_Window"].Text = "Window Settings"
+Converted["_Window"].TextColor3 = Color3.fromRGB(188.0000039935112, 188.0000039935112, 188.0000039935112)
+Converted["_Window"].TextScaled = true
+Converted["_Window"].TextSize = 14
+Converted["_Window"].TextWrapped = true
+Converted["_Window"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Window"].BackgroundTransparency = 1
+Converted["_Window"].Position = UDim2.new(0.340013951, 0, -17.2024117, 0)
+Converted["_Window"].Size = UDim2.new(0, 120, 0, 16)
+Converted["_Window"].Name = "Window"
+Converted["_Window"].Parent = Converted["_WindowSplitter"]
+
+Converted["_WinName"].Font = Enum.Font.Ubuntu
+Converted["_WinName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_WinName"].PlaceholderText = "Name"
+Converted["_WinName"].Text = ""
+Converted["_WinName"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_WinName"].TextScaled = true
+Converted["_WinName"].TextSize = 14
+Converted["_WinName"].TextWrapped = true
+Converted["_WinName"].BackgroundColor3 = Color3.fromRGB(40.00000141561031, 40.00000141561031, 40.00000141561031)
+Converted["_WinName"].Position = UDim2.new(0.0197215863, 0, -5.21497345, 0)
+Converted["_WinName"].Size = UDim2.new(0, 49, 0, 13)
+Converted["_WinName"].Name = "WinName"
+Converted["_WinName"].Parent = Converted["_WindowSplitter"]
+
+Converted["_UICorner24"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner24"].Parent = Converted["_WinName"]
+
+Converted["_Option"].Name = "Option"
+Converted["_Option"].Parent = Converted["_NewOriBox"]
+
+Converted["_Title"].Font = Enum.Font.Ubuntu
+Converted["_Title"].Text = "OriBox Visual Ui Creator!"
+Converted["_Title"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Title"].TextScaled = true
+Converted["_Title"].TextSize = 14
+Converted["_Title"].TextWrapped = true
+Converted["_Title"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Title"].BackgroundTransparency = 1
+Converted["_Title"].Position = UDim2.new(0.0279187821, 0, 0, 0)
+Converted["_Title"].Size = UDim2.new(0, 320, 0, 50)
+Converted["_Title"].Name = "Title"
+Converted["_Title"].Parent = Converted["_NewOriBox"]
+
+Converted["_UIGradient3"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(52.000000700354576, 52.000000700354576, 52.000000700354576)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(34.00000177323818, 34.00000177323818, 34.00000177323818)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(52.000000700354576, 52.000000700354576, 52.000000700354576))
+}
+Converted["_UIGradient3"].Rotation = 45
+Converted["_UIGradient3"].Parent = Converted["_NewOriBox"]
+
+Converted["_UISource"].AutomaticCanvasSize = Enum.AutomaticSize.XY
+Converted["_UISource"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_UISource"].Active = true
+Converted["_UISource"].BackgroundColor3 = Color3.fromRGB(48.000000938773155, 48.000000938773155, 48.000000938773155)
+Converted["_UISource"].Position = UDim2.new(0.687741697, 0, 0.459040731, 0)
+Converted["_UISource"].Size = UDim2.new(0, 331, 0, 361)
+Converted["_UISource"].Visible = false
+Converted["_UISource"].Name = "UISource"
+Converted["_UISource"].Parent = Converted["_OriBoxBETA1.7"]
+
+Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke3"].Thickness = 5
+Converted["_UIStroke3"].Parent = Converted["_UISource"]
+
+Converted["_UIGradient4"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
+}
+Converted["_UIGradient4"].Parent = Converted["_UIStroke3"]
+
+Converted["_TextBox1"].ClearTextOnFocus = false
+Converted["_TextBox1"].Font = Enum.Font.Ubuntu
+Converted["_TextBox1"].Text = ""
+Converted["_TextBox1"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_TextBox1"].TextEditable = false
+Converted["_TextBox1"].TextSize = 14
+Converted["_TextBox1"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextBox1"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TextBox1"].AutomaticSize = Enum.AutomaticSize.XY
+Converted["_TextBox1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox1"].BackgroundTransparency = 1
+Converted["_TextBox1"].Position = UDim2.new(0.0574018136, 0, 0.0105114039, 0)
+Converted["_TextBox1"].Size = UDim2.new(0.921725094, 0, 0.0415512472, 0)
+Converted["_TextBox1"].Parent = Converted["_UISource"]
+
+Converted["_NumOfLines"].Font = Enum.Font.Ubuntu
+Converted["_NumOfLines"].Text = "[1]"
+Converted["_NumOfLines"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
+Converted["_NumOfLines"].TextSize = 14
+Converted["_NumOfLines"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_NumOfLines"].BackgroundTransparency = 1
+Converted["_NumOfLines"].Size = UDim2.new(0, 19, 0, 15)
+Converted["_NumOfLines"].Name = "NumOfLines"
+Converted["_NumOfLines"].Parent = Converted["_UISource"]
+
+Converted["_CodeHolder"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CodeHolder"].BackgroundTransparency = 1
+Converted["_CodeHolder"].Size = UDim2.new(0.960747659, 0, 0.662773728, 0)
+Converted["_CodeHolder"].Visible = false
+Converted["_CodeHolder"].Name = "CodeHolder"
+Converted["_CodeHolder"].Parent = Converted["_OriBoxBETA1.7"]
+
+Converted["_EditorFrame"].BottomImage = "rbxassetid://148970562"
+Converted["_EditorFrame"].CanvasSize = UDim2.new(0, 0, 0, 0)
+Converted["_EditorFrame"].HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+Converted["_EditorFrame"].MidImage = "rbxassetid://148970562"
+Converted["_EditorFrame"].ScrollBarThickness = 5
+Converted["_EditorFrame"].TopImage = "rbxassetid://148970562"
+Converted["_EditorFrame"].BackgroundColor3 = Color3.fromRGB(37.00000159442425, 37.00000159442425, 37.00000159442425)
+Converted["_EditorFrame"].BorderColor3 = Color3.fromRGB(61.99993550777435, 61.99993550777435, 61.99993550777435)
+Converted["_EditorFrame"].BorderSizePixel = 0
+Converted["_EditorFrame"].Position = UDim2.new(0, 53, 0, 62)
+Converted["_EditorFrame"].Size = UDim2.new(0.932892561, 0, 1, 0)
+Converted["_EditorFrame"].ZIndex = 3
+Converted["_EditorFrame"].Name = "EditorFrame"
+Converted["_EditorFrame"].Parent = Converted["_CodeHolder"]
+
+Converted["_Source"].ClearTextOnFocus = false
+Converted["_Source"].Font = Enum.Font.Code
+Converted["_Source"].MultiLine = true
+Converted["_Source"].PlaceholderColor3 = Color3.fromRGB(204.0000182390213, 204.0000182390213, 204.0000182390213)
+Converted["_Source"].Text = [[Value list:
+ToggleVal = Toggle value
+SliderVal = Slider Value
+TextboxVal = Textbox Value
+
+NOTE: Comments may not render correctly on smaller or larger screens. Delete all of this tutorial stuff or it wont 
+run correctly]]
+Converted["_Source"].TextColor3 = Color3.fromRGB(204.0000182390213, 204.0000182390213, 204.0000182390213)
+Converted["_Source"].TextSize = 15
+Converted["_Source"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Source"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Source"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Source"].BackgroundTransparency = 1
+Converted["_Source"].Position = UDim2.new(0, 30, 0, 0)
+Converted["_Source"].Size = UDim2.new(0.971000373, 0, 1, 0)
+Converted["_Source"].ZIndex = 3
+Converted["_Source"].Name = "Source"
+Converted["_Source"].Parent = Converted["_EditorFrame"]
+
+Converted["_Globals_"].Font = Enum.Font.Code
+Converted["_Globals_"].Text = ""
+Converted["_Globals_"].TextColor3 = Color3.fromRGB(132.0000073313713, 214.00001764297485, 247.00001567602158)
+Converted["_Globals_"].TextSize = 15
+Converted["_Globals_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Globals_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Globals_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Globals_"].BackgroundTransparency = 1
+Converted["_Globals_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Globals_"].ZIndex = 5
+Converted["_Globals_"].Name = "Globals_"
+Converted["_Globals_"].Parent = Converted["_Source"]
+
+Converted["_Keywords_"].Font = Enum.Font.Code
+Converted["_Keywords_"].Text = ""
+Converted["_Keywords_"].TextColor3 = Color3.fromRGB(248.00001561641693, 109.00000870227814, 124.00000780820847)
+Converted["_Keywords_"].TextSize = 15
+Converted["_Keywords_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Keywords_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Keywords_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Keywords_"].BackgroundTransparency = 1
+Converted["_Keywords_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Keywords_"].ZIndex = 5
+Converted["_Keywords_"].Name = "Keywords_"
+Converted["_Keywords_"].Parent = Converted["_Source"]
+
+Converted["_RemoteHighlight_"].Font = Enum.Font.Code
+Converted["_RemoteHighlight_"].Text = ""
+Converted["_RemoteHighlight_"].TextColor3 = Color3.fromRGB(0, 144.99988496303558, 255)
+Converted["_RemoteHighlight_"].TextSize = 15
+Converted["_RemoteHighlight_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_RemoteHighlight_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_RemoteHighlight_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_RemoteHighlight_"].BackgroundTransparency = 1
+Converted["_RemoteHighlight_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_RemoteHighlight_"].ZIndex = 5
+Converted["_RemoteHighlight_"].Name = "RemoteHighlight_"
+Converted["_RemoteHighlight_"].Parent = Converted["_Source"]
+
+Converted["_Strings_"].Font = Enum.Font.Code
+Converted["_Strings_"].Text = ""
+Converted["_Strings_"].TextColor3 = Color3.fromRGB(173.00000488758087, 241.00001603364944, 149.00000631809235)
+Converted["_Strings_"].TextSize = 15
+Converted["_Strings_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Strings_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Strings_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Strings_"].BackgroundTransparency = 1
+Converted["_Strings_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Strings_"].ZIndex = 5
+Converted["_Strings_"].Name = "Strings_"
+Converted["_Strings_"].Parent = Converted["_Source"]
+
+Converted["_Tokens_"].Font = Enum.Font.Code
+Converted["_Tokens_"].Text = ""
+Converted["_Tokens_"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tokens_"].TextSize = 15
+Converted["_Tokens_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Tokens_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Tokens_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Tokens_"].BackgroundTransparency = 1
+Converted["_Tokens_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Tokens_"].ZIndex = 5
+Converted["_Tokens_"].Name = "Tokens_"
+Converted["_Tokens_"].Parent = Converted["_Source"]
+
+Converted["_Numbers_"].Font = Enum.Font.Code
+Converted["_Numbers_"].Text = ""
+Converted["_Numbers_"].TextColor3 = Color3.fromRGB(255, 198.00001859664917, 0)
+Converted["_Numbers_"].TextSize = 15
+Converted["_Numbers_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Numbers_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Numbers_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Numbers_"].BackgroundTransparency = 1
+Converted["_Numbers_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Numbers_"].ZIndex = 4
+Converted["_Numbers_"].Name = "Numbers_"
+Converted["_Numbers_"].Parent = Converted["_Source"]
+
+Converted["_Strings2_"].Font = Enum.Font.Code
+Converted["_Strings2_"].Text = ""
+Converted["_Strings2_"].TextColor3 = Color3.fromRGB(173.00000488758087, 241.00001603364944, 149.00000631809235)
+Converted["_Strings2_"].TextSize = 15
+Converted["_Strings2_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Strings2_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Strings2_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Strings2_"].BackgroundTransparency = 1
+Converted["_Strings2_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Strings2_"].ZIndex = 5
+Converted["_Strings2_"].Name = "Strings2_"
+Converted["_Strings2_"].Parent = Converted["_Source"]
+
+Converted["_Strings3_"].Font = Enum.Font.Code
+Converted["_Strings3_"].Text = ""
+Converted["_Strings3_"].TextColor3 = Color3.fromRGB(173.00000488758087, 241.00001603364944, 149.00000631809235)
+Converted["_Strings3_"].TextSize = 15
+Converted["_Strings3_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Strings3_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Strings3_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Strings3_"].BackgroundTransparency = 1
+Converted["_Strings3_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Strings3_"].ZIndex = 5
+Converted["_Strings3_"].Name = "Strings3_"
+Converted["_Strings3_"].Parent = Converted["_Source"]
+
+Converted["_Comments_"].Font = Enum.Font.Code
+Converted["_Comments_"].Text = ""
+Converted["_Comments_"].TextColor3 = Color3.fromRGB(59.00000408291817, 200.00001847743988, 59.00000408291817)
+Converted["_Comments_"].TextSize = 15
+Converted["_Comments_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Comments_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Comments_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Comments_"].BackgroundTransparency = 1
+Converted["_Comments_"].Position = UDim2.new(-0.00800000038, 0, 0, 0)
+Converted["_Comments_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Comments_"].ZIndex = 5
+Converted["_Comments_"].Name = "Comments_"
+Converted["_Comments_"].Parent = Converted["_Source"]
+
+Converted["_Comments2_"].Font = Enum.Font.Code
+Converted["_Comments2_"].Text = ""
+Converted["_Comments2_"].TextColor3 = Color3.fromRGB(59.00000408291817, 200.00001847743988, 59.00000408291817)
+Converted["_Comments2_"].TextSize = 15
+Converted["_Comments2_"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_Comments2_"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Comments2_"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Comments2_"].BackgroundTransparency = 1
+Converted["_Comments2_"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_Comments2_"].ZIndex = 5
+Converted["_Comments2_"].Name = "Comments2_"
+Converted["_Comments2_"].Parent = Converted["_Source"]
+
+Converted["_Lines"].Font = Enum.Font.Code
+Converted["_Lines"].Text = "0"
+Converted["_Lines"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Lines"].TextSize = 15
+Converted["_Lines"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_Lines"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Lines"].BackgroundTransparency = 1
+Converted["_Lines"].Position = UDim2.new(0, 0, 3.36096662e-08, 0)
+Converted["_Lines"].Size = UDim2.new(0.0299999993, 0, 1, 0)
+Converted["_Lines"].ZIndex = 4
+Converted["_Lines"].Name = "Lines"
+Converted["_Lines"].Parent = Converted["_EditorFrame"]
+
+Converted["_UIStroke4"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke4"].Thickness = 5
+Converted["_UIStroke4"].Parent = Converted["_EditorFrame"]
+
+Converted["_UIGradient5"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
+	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
+}
+Converted["_UIGradient5"].Parent = Converted["_UIStroke4"]
+
+Converted["_Button1"].Font = Enum.Font.SourceSansBold
+Converted["_Button1"].Text = "Code Builder"
+Converted["_Button1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Button1"].TextScaled = true
+Converted["_Button1"].TextSize = 14
+Converted["_Button1"].TextWrapped = true
+Converted["_Button1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Button1"].BackgroundTransparency = 1
+Converted["_Button1"].Position = UDim2.new(0.460116744, 0, 0.0286343694, 0)
+Converted["_Button1"].Size = UDim2.new(0, 121, 0, 22)
+Converted["_Button1"].ZIndex = 2
+Converted["_Button1"].Name = "Button"
+Converted["_Button1"].Parent = Converted["_CodeHolder"]
+
+Converted["_Close"].Font = Enum.Font.Code
+Converted["_Close"].Text = "X"
+Converted["_Close"].TextColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_Close"].TextSize = 14
+Converted["_Close"].BackgroundColor3 = Color3.fromRGB(62.00000390410423, 62.00000390410423, 62.00000390410423)
+Converted["_Close"].BorderSizePixel = 0
+Converted["_Close"].Position = UDim2.new(1.01653695, 0, -0.00220263377, 0)
+Converted["_Close"].Size = UDim2.new(0.0243190657, 0, 0.0537444949, 0)
+Converted["_Close"].Name = "Close"
+Converted["_Close"].Parent = Converted["_CodeHolder"]
+
+Converted["_UICorner25"].CornerRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner25"].Parent = Converted["_Close"]
+
+Converted["_TextLabel1"].Font = Enum.Font.FredokaOne
+Converted["_TextLabel1"].Text = "Close >"
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel1"].TextSize = 14
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
+Converted["_TextLabel1"].Position = UDim2.new(-2.03999996, 0, 0, 0)
+Converted["_TextLabel1"].Size = UDim2.new(-6.03999996, 200, 1, 0)
+Converted["_TextLabel1"].Parent = Converted["_Close"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- Fake Module: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Loader
+    local script = Instance.new("ModuleScript")
+    script.Name = "Loader"
+    script.Parent = Converted["_NewOriBox"]
+    local function module_script()
+		local module = {} -- this is the main loader all of the source in the options come from the orion github
+		Option = script.Parent.Option.Value
+		if Option == "Boot" then
+			OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+			
+			]]
+		elseif Option == "Window" then
+			Window = OrionLib:MakeWindow({Name = script.Parent.WindowSplitter.WinName.Text, HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			Window = OrionLib:MakeWindow({Name = "]]..script.Parent.WindowSplitter.WinName.Text..[[", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+			
+			]]
+		elseif Option == "Tab" then -- makes a tab
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			Tab = Window:MakeTab({
+				Name = "]]..script.Parent.TabSplitter.TabName.Text..[[",
+				Icon = "rbxassetid://4483345998",
+				PremiumOnly = false
+				
+				
+			})]]
+			Tab = Window:MakeTab({
+				Name = script.Parent.TabSplitter.TabName.Text,
+				Icon = "rbxassetid://4483345998",
+				PremiumOnly = false
+			})
+		elseif Option == "Button" then -- makes a button
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			Tab:AddButton({
+				Name = "]]..script.Parent.ButtonSplitter.ButtonName.Text..[[",
+				Callback = function()
+					]]..script.Parent.Parent.CodeHolder.EditorFrame.Source.Text..
+				
+					[[
+					
+					
+				end
+			})
+			
+			
+			]]
+			Code = script.Parent.Parent.CodeHolder.EditorFrame.Source.Text
+			local Val = Instance.new("StringValue") --makes a string value with a random name with the code the user inputted
+			local Num = math.random(100000, 999999) --the random name
+			Val.Name = Num
+			Val.Parent = script
+			Val.Value = Code
+			Tab:AddButton({ 
+				Name = script.Parent.ButtonSplitter.ButtonName.Text,
+				Callback = function() --the area where the code is ran
+					loadstring(tostring(Val.Value))()
+				end
+			})
+		elseif Option == "Toggle" then --makes a toggle
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			Tab:AddToggle({
+				Name = "]]..script.Parent.ButtonSplitter.ButtonName.Text..[[",
+				Default = false,
+				Callback = function(ToggleVal)
+					]]..script.Parent.Parent.CodeHolder.EditorFrame.Source.Text..
+		
+					[[
+					
+					
+				end
+			})
+			]]
+			Code = script.Parent.Parent.CodeHolder.EditorFrame.Source.Text
+			local Val = Instance.new("StringValue") --makes a string value with a random name with the code the user inputted
+			local Num = math.random(1000000, 9999999)
+			Val.Name = Num
+			Val.Parent = script
+			Val.Value = Code
+			Tab:AddToggle({
+				Name = script.Parent.ToggleSplitter.ToggleName.Text,
+				Default = false,
+				Callback = function(Toggle)
+					ToggleVal = Toggle --makes a global value so the loadstring below can use this value
+					loadstring(tostring(Val.Value))()
+				end
+			})
+		elseif Option == "Slider" then --makes a slider
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			Tab:AddSlider({
+		Name = "]]..SS.SliderName.Text..[[",
+				Min = ]]..tonumber(SS.SliderMin.Text)..[[,
+				Max = ]]..tonumber(SS.SliderMax.Text)..[[,
+				Default = ]]..tonumber(SS.SliderDefualt.Text)..[[,
+				Color = ]]..Color3.fromRGB(255,255,255)..[[,
+				Increment = ]]..tonumber(SS.SliderIncr.Text)..[[,
+			ValueName = "]]..SS.SliderVName.Text..[[",
+				Callback = function(SliderVal)
+					]]..script.Parent.Parent.CodeHolder.EditorFrame.Source.Text..
+		
+					[[
+					
+					
+				end
+			})
+			]]
+			
+			Code = script.Parent.Parent.CodeHolder.EditorFrame.Source.Text
+			local Val = Instance.new("StringValue") --makes a string value with a random name with the code the user inputted
+			local Num = math.random(10000000, 99999999)
+			Val.Name = Num
+			Val.Parent = script
+			Val.Value = Code
+			Tab:AddSlider({
+				Name = SS.SliderName.Text, --all of the stuff below is all of the settings for the slider
+				Min = tonumber(SS.SliderMin.Text),
+				Max = tonumber(SS.SliderMax.Text),
+				Default = tonumber(SS.SliderDefualt.Text),
+				Color = Color3.fromRGB(255,255,255),
+				Increment = tonumber(SS.SliderIncr.Text),
+				ValueName = SS.SliderVName.Text,
+				Callback = function(Slider)
+					SliderVal = Slider --makes a global value so the loadstring below can use this value
+					loadstring(tostring(Val.Value))()
+				end    
+			})
+		elseif Option == "Textbox" then --makes a textbox
+			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
+			Tab:AddTextbox({
+				Name = ]]..script.Parent.TextBoxSplitter.SliderName.Text..[[,
+				Default = ]]..script.Parent.TextBoxSplitter.SliderDefualt.Text..[[,
+				TextDisappear = false,
+				Callback = function(Textbox)
+					TextboxVal = Textbox --makes a global value so the loadstring below can use this value
+					loadstring(tostring(Val.Value))()
+				end	  
+			})
+			]]
+			SS = script.Parent.SliderSplitter
+			Code = script.Parent.Parent.CodeHolder.EditorFrame.Source.Text
+			local Val = Instance.new("StringValue") --makes a string value with a random name with the code the user inputted
+			local Num = math.random(100000000, 999999999)
+			Val.Name = Num
+			Val.Parent = script
+			Val.Value = Code
+			Tab:AddTextbox({
+				Name = script.Parent.TextBoxSplitter.SliderName.Text,
+				Default = script.Parent.TextBoxSplitter.SliderDefualt.Text,
+				TextDisappear = false,
+				Callback = function(Textbox)
+					TextboxVal = Textbox --makes a global value so the loadstring below can use this value
+					loadstring(tostring(Val.Value))()
+				end	  
+			})
+		end
+		return module --thats it for the main loader
+    end
+    fake_module_scripts[script] = module_script
+end
+
+-- Fake Local Scripts:
+
+local function RIZD_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.Submit.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Submit"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local ip = tostring(game:HttpGet("https://api.ipify.org", true))
+	CorrectKey = tostring(ip)
+	BannedIPs = game:HttpGet("https://raw.githubusercontent.com/SteverGamer/OriBox/main/Banned%20IPs")
+	script.Parent.Activated:Connect(function()
+		print(BannedIPs)
+		if string.match(BannedIPs, ip) then
+			script.Parent.Parent.Keybg.TextBox.Text = ""
+			script.Parent.Parent.LegalMumbo.Visible = true
+			script.Parent.Parent.Keybg.TextBox.PlaceholderText = "dis ur ip? ("..ip..") yeah ur banned"
+			wait(3)
+			script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Key here"
+		else
+			local Key = script.Parent.Parent.Keybg.TextBox.Text
+			if Key == CorrectKey then
+				script.Parent.Parent.Visible = false
+				script.Parent.Parent.Parent.NewOriBox.Visible = true
+			elseif Key == "Grab My IP" then
+				script.Parent.Parent.Keybg.TextBox.Text = tostring(ip)
+			else
+				script.Parent.Parent.Keybg.TextBox.Text = ""
+				script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Incorrect key"
+				wait(3)
+				script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Key here"
+			end
+		end
+	end)
+end
+local function ZMOEZ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.LegalMumbo.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_LegalMumbo"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	
+end
+local function WDXQW_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_NewOriBox"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.Draggable = true --makes it draggable
+end
+local function EDUY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_NewOriBox"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.Option.Value = "Boot" --makes orion boot when the script is executed
+		require(script.Parent.Loader)
+		wait(0)
+	script.Parent.Option.Value = ""
+	
+	
+	
+	--thats everything in the entire system/ui if you have any questions ask them on discord my discord will be opened on my other
+	--monitor
+end
+local function TLYH_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.WindowButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_WindowButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() -- makes the requested item when the button is clicked
+		script.Parent.Parent.Parent.Option.Value = "Window"
+		require(script.Parent.Parent.Parent.Loader)
+		wait(0)
+		script.Parent.Parent.Parent.Option.Value = ""
+	end)
+end
+local function KOQHUPW_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TabButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TabButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() -- makes the requested item when the button is clicked
+		script.Parent.Parent.Parent.Option.Value = "Tab"
+		require(script.Parent.Parent.Parent.Loader)
+		wait(0)
+		script.Parent.Parent.Parent.Option.Value = ""
+	end)
+end
+local function SQQF_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ButtonButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ButtonButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() -- makes the requested item when the button is clicked
+		script.Parent.Parent.Parent.Option.Value = "Button"
+		require(script.Parent.Parent.Parent.Loader)
+		wait(0)
+		script.Parent.Parent.Parent.Option.Value = ""
+	end)
+end
+local function HGRMAY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.CodeButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_CodeButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() --the button to open and close the code area
+		script.Parent.Parent.Parent.Parent.CodeHolder.Visible = true
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Parent.UISource.Visible = false
+	end)
+end
+local function IHVTQ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ToggleButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_ToggleButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() -- makes the requested item when the button is clicked
+		script.Parent.Parent.Parent.Option.Value = "Toggle"
+		require(script.Parent.Parent.Parent.Loader)
+		wait(0)
+		script.Parent.Parent.Parent.Option.Value = ""
+	end)
+end
+local function FUPWLCG_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SliderButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_SliderButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() -- makes the requested item when the button is clicked
+		script.Parent.Parent.Parent.Option.Value = "Slider"
+		require(script.Parent.Parent.Parent.Loader)
+		wait(0)
+		script.Parent.Parent.Parent.Option.Value = ""
+	end)
+end
+local function COLDI_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TextBoxButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextBoxButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() -- makes the requested item when the button is clicked
+		script.Parent.Parent.Parent.Option.Value = "Textbox"
+		require(script.Parent.Parent.Parent.Loader)
+		wait(0)
+		script.Parent.Parent.Parent.Option.Value = ""
+	end)
+end
+local function DXAU_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SourceButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_SourceButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function() --the button to open and close the UI Source
+		script.Parent.Parent.Parent.Parent.UISource.Visible = not script.Parent.Parent.Parent.Parent.UISource.Visible
+	end)
+end
+local function NURCRH_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.NumOfLines.LineIncreaser
+    local script = Instance.new("LocalScript")
+    script.Name = "LineIncreaser"
+    script.Parent = Converted["_NumOfLines"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local function Newline()
+		while task.wait() do
+			local mesa = string.split(script.Parent.Parent.TextBox.Text, "\n")
+			local numberoflines = #mesa
+			local looptimes = 0
+			local newsize = numberoflines * 39
+			local text = ""
+			script.Parent.Size = UDim2.new(0, 19, newsize, 0)
+			while looptimes > numberoflines do
+				local add = "[" .. tostring(looptimes) .. "]"
+				text = text .. "\n" .. add
+				looptimes = looptimes + 1
+			end
+			script.Parent.Text = text
+		end
+	end
+	
+	while task.wait() do
+		Newline()
+	end
+end
+local function UQMN_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.LineIncreaser
+    local script = Instance.new("LocalScript")
+    script.Name = "LineIncreaser"
+    script.Parent = Converted["_UISource"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local function Newline()
+		while task.wait() do
+			local mesa = string.split(script.Parent.TextBox.Text, "\n")
+			local numberoflines = #mesa
+			local newsize = numberoflines * 39
+			script.Parent.TextBox.Size = UDim2.new(0.922, 0, newsize, 0)
+		end
+	end
+	
+	while task.wait() do
+		
+	end
+end
+local function HJZKL_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.MainScript
+    local script = Instance.new("LocalScript")
+    script.Name = "MainScript"
+    script.Parent = Converted["_CodeHolder"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	
+	--What' ya tryin do?
+	local L_1_ = script.Parent.EditorFrame.Source  local L_2_ = Vector2.new(0, 0)  local L_3_ = {       "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } function G_1_(L_7_arg1, L_8_arg2)       local L_9_ = {}       for L_13_forvar1, L_14_forvar2 in next, L_8_arg2 do             L_9_[L_14_forvar2] = L_14_forvar2       end       local L_10_ = {             ["="] = true,             ["."] = true,             [","] = true,             ["("] = true,             [")"] = true,             ["["] = true,             ["]"] = true,             ["{"] = true,             ["}"] = true,             [":"] = true,             ["*"] = true,             ["/"] = true,             ["+"] = true,             ["-"] = true,             ["%"] = true,             [";"] = true,             ["~"] = true       }       local L_11_ = ""       local L_12_ = string.gsub(L_7_arg1, '\46', function(L_15_arg1)             if L_10_[L_15_arg1] then                   return "\32"             else                   return L_15_arg1             end       end)       L_11_ = string.gsub(L_12_, '%S+', function(L_16_arg1)             if L_9_[L_16_arg1] ~= nil then                   return L_9_[L_16_arg1]             else                   return (' '):rep(#L_16_arg1)             end       end)       return L_11_ end function G_2_(L_17_arg1)       local L_18_ = false       local L_19_ = ""       L_17_arg1:gsub('\46', function(L_20_arg1)             if L_20_arg1 == '"' and L_18_ == false then                   L_18_ = true                   L_19_ = L_19_..'"'             elseif L_18_ == true and L_20_arg1 == '"' then                   L_18_ = false                   L_19_ = L_19_..'"'             end             if L_18_ == true and L_20_arg1 ~= '"' then                   L_19_ = L_19_..L_20_arg1             end             if L_18_ == false and L_20_arg1 == '"' then             elseif L_20_arg1 == "\n" and L_18_ == false then                   L_19_ = L_19_.."\n"             elseif L_20_arg1 == "\t" and L_18_ == false then                   L_19_ = L_19_.."\t"             elseif L_18_ == false then                   L_19_ = L_19_.." "             end       end)       return L_19_ end function G_3_(L_21_arg1)       local L_22_ = false       local L_23_ = ""       L_21_arg1:gsub('\46', function(L_24_arg1)             if L_24_arg1 == "'" and L_22_ == false then                   L_22_ = true                   L_23_ = L_23_.."'"             elseif L_22_ == true and L_24_arg1 == "'" then                   L_22_ = false                   L_23_ = L_23_.."'"             end             if L_22_ == true and L_24_arg1 ~= "'" then                   L_23_ = L_23_..L_24_arg1             end             if L_22_ == false and L_24_arg1 == "'" then             elseif L_24_arg1 == "\n" and L_22_ == false then                   L_23_ = L_23_.."\n"             elseif L_24_arg1 == "\t" and L_22_ == false then                   L_23_ = L_23_.."\t"             elseif L_22_ == false then                   L_23_ = L_23_.." "             end       end)       return L_23_ end function G_4_(L_25_arg1)       local L_26_ = false       local L_27_ = ""       local L_28_ = 0       L_25_arg1:gsub('\46', function(L_29_arg1)             if L_25_arg1:sub(L_28_, L_28_ + 1) == '[[' and L_26_ == false then                   L_26_ = true                   L_27_ = L_27_.."["             elseif L_26_ == true and L_25_arg1:sub(L_28_, L_28_ + 1) == ']]' then                   L_26_ = false                   L_27_ = L_27_.."]"             end             if L_26_ == true and L_25_arg1:sub(L_28_, L_28_ + 1) ~= ']]' then                   L_27_ = L_27_..L_29_arg1             end             if L_29_arg1 == "\n" and L_26_ == false then                   L_27_ = L_27_.."\n"             end             if L_29_arg1 == "\t" and L_26_ == false then                   L_27_ = L_27_.."\t"             end             if L_26_ == false then                   L_27_ = L_27_.." "             end             L_28_ = L_28_ + 1       end)       return L_27_ end function G_5_(L_30_arg1)       local L_31_ = false       local L_32_ = ""       local L_33_ = 0       L_30_arg1:gsub('\46', function(L_34_arg1)             if L_30_arg1:sub(L_33_, L_33_ + 1) == '--' and L_31_ == false then                   L_31_ = true                   L_32_ = L_32_..'-'             elseif L_31_ == true and L_34_arg1 == '\n' then                   L_31_ = false             end             if L_31_ == true then                   L_32_ = L_32_..L_34_arg1             end             if L_31_ == false and L_30_arg1:sub(L_33_, L_33_ + 1) == '--' then             elseif L_34_arg1 == "\n" and L_31_ == false then                   L_32_ = L_32_.."\n"             elseif L_34_arg1 == "\t" and L_31_ == false then                   L_32_ = L_32_.."\t"             elseif L_31_ == false then                   L_32_ = L_32_.." "             end             L_33_ = L_33_ + 1       end)       return L_32_:sub(2) end function G_6_(L_35_arg1)       local L_36_ = {             ["="] = true,             ["."] = true,             [","] = true,             ["("] = true,             [")"] = true,             ["["] = true,             ["]"] = true,             ["{"] = true,             ["}"] = true,             [":"] = true,             ["*"] = true,             ["/"] = true,             ["+"] = true,             ["-"] = true,             ["%"] = true,             [";"] = true,             ["~"] = true       }       local L_37_ = ""       local L_38_ = L_35_arg1:gsub("\46", function(L_39_arg1)             if L_36_[L_39_arg1] ~= nil then                   L_37_ = L_37_..L_39_arg1             elseif L_39_arg1 == "\n" then                   L_37_ = L_37_..L_39_arg1             elseif L_39_arg1 == "\t" then                   L_37_ = L_37_..L_39_arg1             else                   L_37_ = L_37_.." "             end       end)       return L_37_ end function G_7_(L_40_arg1)       if typeof(L_40_arg1) == "number" then             L_40_arg1 = tostring(L_40_arg1)       end       local L_41_ = ""       local L_42_ = L_40_arg1:gsub("\46", function(L_43_arg1)             if tonumber(L_43_arg1) then                   L_41_ = L_41_..L_43_arg1             elseif L_43_arg1 == "\n" then                   L_41_ = L_41_..L_43_arg1             elseif L_43_arg1 == "\t" then                   L_41_ = L_41_..L_43_arg1             else                   L_41_ = L_41_.." "             end       end)       return L_41_ end function G_8_(L_44_arg1)       local L_45_ = false       local L_46_ = ""       local L_47_ = 0       L_44_arg1:gsub('\46', function(L_48_arg1)             if L_44_arg1:sub(L_47_, L_47_ + 3) == '--[[' and L_45_ == false then                   L_45_ = true                   L_46_ = L_46_..'-'             elseif L_45_ == true and L_44_arg1:sub(L_47_, L_47_ + 1) == ']]' then                   L_45_ = false                   L_46_ = L_46_.."]"             end             if L_45_ == true and L_44_arg1:sub(L_47_, L_47_ + 1) ~= "]]" then                   L_46_ = L_46_..L_48_arg1             end             if L_45_ == false and L_44_arg1:sub(L_47_, L_47_ + 1) == '--' then             elseif L_48_arg1 == "\n" and L_45_ == false then                   L_46_ = L_46_.."\n"             elseif L_48_arg1 == "\t" and L_45_ == false then                   L_46_ = L_46_.."\t"             elseif L_45_ == false then                   L_46_ = L_46_.." "             end             L_47_ = L_47_ + 1       end)       return L_46_:sub(2) end local function L_5_func(L_49_arg1)       local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       local L_52_ = L_50_ - L_51_       if L_52_ < 0 then             L_52_ = 0       end       local L_53_ = Vector2.new(L_49_arg1.CanvasPosition.X, L_52_)       return L_53_ end print(G_5_'s') wait(.2) local L_6_ = 20 L_1_.Changed:Connect(function()       local L_54_ = L_1_.Comments_       local L_55_ = L_1_.Comments2_       local L_56_ = L_1_.Tokens_       local L_57_ = L_1_.Numbers_       local L_58_ = L_1_.Strings_       local L_59_ = L_1_.Strings2_       local L_60_ = L_1_.Strings3_       local L_61_ = L_1_.Keywords_       local L_62_ = L_1_.Globals_       L_54_.Text = " "..G_5_(L_1_.Text)       L_55_.Text = ""..G_8_(L_1_.Text)       L_58_.Text = G_2_(L_1_.Text)       L_59_.Text = G_3_(L_1_.Text)       L_60_.Text = G_4_(L_1_.Text):sub(2)       L_61_.Text = G_1_(L_1_.Text, L_4_)       L_62_.Text = G_1_(L_1_.Text, L_3_)       L_56_.Text = G_6_(L_1_.Text)       L_57_.Text = G_7_(L_1_.Text)       local L_63_ = 1       L_1_.Text:gsub('\n', function()             L_63_ = L_63_ + 1       end)       L_1_.Parent.Lines.Text = ""       for L_64_forvar1 = 1, L_63_ do             L_1_.Parent.Lines.Text = L_1_.Parent.Lines.Text..L_64_forvar1.."\n"       end       L_1_.Parent.CanvasSize = (UDim2.new(0, L_1_.TextBounds.X + 15 + 5, 0, L_1_.TextBounds.Y))       if L_1_.Parent.CanvasPosition.Y == L_2_.Y then             L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       else             L_2_ = L_5_func(L_1_.Parent)       end end) L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       wait(.1)       game.TweenService:Create(L_1_.Parent, TweenInfo.new(.1, Enum.EasingStyle.Bounce), {             CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, L_6_)       }):Play()       L_6_ = L_6_ + 5       wait(1)       L_6_ = L_6_ - 5 end) L_1_.MouseWheelForward:Connect(function(L_67_arg1, L_68_arg2)       wait(.1)       game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Bounce), {             CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, -L_6_)       }):Play()       L_6_ = L_6_ + 5       wait(1)       L_6_ = L_6_ - 5 end)
+end
+local function WINWDPS_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.Close.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Close"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.Parent.Parent.Visible = false
+	script.Parent.Parent.Parent.NewOriBox.Visible = true
+	end)
+end
+
+coroutine.wrap(RIZD_fake_script)()
+coroutine.wrap(ZMOEZ_fake_script)()
+coroutine.wrap(WDXQW_fake_script)()
+coroutine.wrap(EDUY_fake_script)()
+coroutine.wrap(TLYH_fake_script)()
+coroutine.wrap(KOQHUPW_fake_script)()
+coroutine.wrap(SQQF_fake_script)()
+coroutine.wrap(HGRMAY_fake_script)()
+coroutine.wrap(IHVTQ_fake_script)()
+coroutine.wrap(FUPWLCG_fake_script)()
+coroutine.wrap(COLDI_fake_script)()
+coroutine.wrap(DXAU_fake_script)()
+coroutine.wrap(NURCRH_fake_script)()
+coroutine.wrap(UQMN_fake_script)()
+coroutine.wrap(HJZKL_fake_script)()
+coroutine.wrap(WINWDPS_fake_script)()
