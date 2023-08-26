@@ -127,10 +127,10 @@ local Converted = {
 
 Converted["_OriBoxBETA1.7"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_OriBoxBETA1.7"].Name = "OriBoxBETA1.7"
-Converted["_OriBoxBETA1.7"].Parent = game.CoreGui
+Converted["_OriBoxBETA1.7"].Parent = game.Players.LocalPlayer.StarterGui
 
 Converted["_Bg"].BackgroundColor3 = Color3.fromRGB(48.000000938773155, 48.000000938773155, 48.000000938773155)
-Converted["_Bg"].Position = UDim2.new(0.286532938, 0, 0.344444513, 0)
+Converted["_Bg"].Position = UDim2.new(0.374417424, 0, 0.333862513, 0)
 Converted["_Bg"].Size = UDim2.new(0, 400, 0, 250)
 Converted["_Bg"].Visible = false
 Converted["_Bg"].Name = "Bg"
@@ -227,8 +227,9 @@ Converted["_UIGradient1"].Color = ColorSequence.new{
 Converted["_UIGradient1"].Parent = Converted["_UIStroke1"]
 
 Converted["_NewOriBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_NewOriBox"].Position = UDim2.new(0.011119348, 0, 0.0296296291, 0)
+Converted["_NewOriBox"].Position = UDim2.new(0.0121481549, 0, 0.0214995481, 0)
 Converted["_NewOriBox"].Size = UDim2.new(0, 394, 0, 761)
+Converted["_NewOriBox"].Visible = false
 Converted["_NewOriBox"].AutoLocalize = false
 Converted["_NewOriBox"].Name = "NewOriBox"
 Converted["_NewOriBox"].Parent = Converted["_OriBoxBETA1.7"]
@@ -1010,7 +1011,7 @@ Converted["_TextLabel1"].Parent = Converted["_Close"]
 
 local fake_module_scripts = {}
 
-do -- Fake Module: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Loader
+do -- Fake Module: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Loader
     local script = Instance.new("ModuleScript")
     script.Name = "Loader"
     script.Parent = Converted["_NewOriBox"]
@@ -1124,6 +1125,7 @@ do -- Fake Module: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox
 			Val.Name = Num
 			Val.Parent = script
 			Val.Value = Code
+			SS = script.Parent.SliderSplitter
 			Tab:AddSlider({
 				Name = SS.SliderName.Text, --all of the stuff below is all of the settings for the slider
 				Min = tonumber(SS.SliderMin.Text),
@@ -1149,7 +1151,6 @@ do -- Fake Module: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox
 				end	  
 			})
 			]]
-			SS = script.Parent.SliderSplitter
 			Code = script.Parent.Parent.CodeHolder.EditorFrame.Source.Text
 			local Val = Instance.new("StringValue") --makes a string value with a random name with the code the user inputted
 			local Num = math.random(100000000, 999999999)
@@ -1173,7 +1174,7 @@ end
 
 -- Fake Local Scripts:
 
-local function RIZD_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.Submit.LocalScript
+local function GCYSG_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.Submit.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Submit"]
@@ -1213,7 +1214,7 @@ local function RIZD_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentV
 		end
 	end)
 end
-local function ZMOEZ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.LegalMumbo.LocalScript
+local function XVOUA_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.LegalMumbo.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_LegalMumbo"]
@@ -1228,7 +1229,7 @@ local function ZMOEZ_fake_script() -- Fake Script: StarterGui.OriBox.Development
 
 	
 end
-local function WDXQW_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
+local function EMZRD_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_NewOriBox"]
@@ -1243,7 +1244,7 @@ local function WDXQW_fake_script() -- Fake Script: StarterGui.OriBox.Development
 
 	script.Parent.Draggable = true --makes it draggable
 end
-local function EDUY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
+local function TZZFKB_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_NewOriBox"]
@@ -1266,7 +1267,7 @@ local function EDUY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentV
 	--thats everything in the entire system/ui if you have any questions ask them on discord my discord will be opened on my other
 	--monitor
 end
-local function TLYH_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.WindowButton.LocalScript
+local function DNOZAYP_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.WindowButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_WindowButton"]
@@ -1286,7 +1287,7 @@ local function TLYH_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentV
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function KOQHUPW_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TabButton.LocalScript
+local function OXXL_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TabButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TabButton"]
@@ -1306,7 +1307,7 @@ local function KOQHUPW_fake_script() -- Fake Script: StarterGui.OriBox.Developme
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function SQQF_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ButtonButton.LocalScript
+local function YVSPIOD_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ButtonButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ButtonButton"]
@@ -1326,7 +1327,7 @@ local function SQQF_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentV
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function HGRMAY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.CodeButton.LocalScript
+local function FZAQIIJ_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.CodeButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CodeButton"]
@@ -1345,7 +1346,7 @@ local function HGRMAY_fake_script() -- Fake Script: StarterGui.OriBox.Developmen
 		script.Parent.Parent.Parent.Parent.UISource.Visible = false
 	end)
 end
-local function IHVTQ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ToggleButton.LocalScript
+local function PLTNGI_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ToggleButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ToggleButton"]
@@ -1365,7 +1366,7 @@ local function IHVTQ_fake_script() -- Fake Script: StarterGui.OriBox.Development
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function FUPWLCG_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SliderButton.LocalScript
+local function AMTSWJJ_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SliderButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_SliderButton"]
@@ -1385,7 +1386,7 @@ local function FUPWLCG_fake_script() -- Fake Script: StarterGui.OriBox.Developme
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function COLDI_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TextBoxButton.LocalScript
+local function XLORDPP_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TextBoxButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextBoxButton"]
@@ -1405,7 +1406,7 @@ local function COLDI_fake_script() -- Fake Script: StarterGui.OriBox.Development
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function DXAU_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SourceButton.LocalScript
+local function NJZFI_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SourceButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_SourceButton"]
@@ -1422,7 +1423,7 @@ local function DXAU_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentV
 		script.Parent.Parent.Parent.Parent.UISource.Visible = not script.Parent.Parent.Parent.Parent.UISource.Visible
 	end)
 end
-local function NURCRH_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.NumOfLines.LineIncreaser
+local function WDMJZ_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.NumOfLines.LineIncreaser
     local script = Instance.new("LocalScript")
     script.Name = "LineIncreaser"
     script.Parent = Converted["_NumOfLines"]
@@ -1456,7 +1457,7 @@ local function NURCRH_fake_script() -- Fake Script: StarterGui.OriBox.Developmen
 		Newline()
 	end
 end
-local function UQMN_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.LineIncreaser
+local function BNLIUO_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.LineIncreaser
     local script = Instance.new("LocalScript")
     script.Name = "LineIncreaser"
     script.Parent = Converted["_UISource"]
@@ -1482,7 +1483,7 @@ local function UQMN_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentV
 		
 	end
 end
-local function HJZKL_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.MainScript
+local function AWUX_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.MainScript
     local script = Instance.new("LocalScript")
     script.Name = "MainScript"
     script.Parent = Converted["_CodeHolder"]
@@ -1499,7 +1500,7 @@ local function HJZKL_fake_script() -- Fake Script: StarterGui.OriBox.Development
 	--What' ya tryin do?
 	local L_1_ = script.Parent.EditorFrame.Source  local L_2_ = Vector2.new(0, 0)  local L_3_ = {       "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } function G_1_(L_7_arg1, L_8_arg2)       local L_9_ = {}       for L_13_forvar1, L_14_forvar2 in next, L_8_arg2 do             L_9_[L_14_forvar2] = L_14_forvar2       end       local L_10_ = {             ["="] = true,             ["."] = true,             [","] = true,             ["("] = true,             [")"] = true,             ["["] = true,             ["]"] = true,             ["{"] = true,             ["}"] = true,             [":"] = true,             ["*"] = true,             ["/"] = true,             ["+"] = true,             ["-"] = true,             ["%"] = true,             [";"] = true,             ["~"] = true       }       local L_11_ = ""       local L_12_ = string.gsub(L_7_arg1, '\46', function(L_15_arg1)             if L_10_[L_15_arg1] then                   return "\32"             else                   return L_15_arg1             end       end)       L_11_ = string.gsub(L_12_, '%S+', function(L_16_arg1)             if L_9_[L_16_arg1] ~= nil then                   return L_9_[L_16_arg1]             else                   return (' '):rep(#L_16_arg1)             end       end)       return L_11_ end function G_2_(L_17_arg1)       local L_18_ = false       local L_19_ = ""       L_17_arg1:gsub('\46', function(L_20_arg1)             if L_20_arg1 == '"' and L_18_ == false then                   L_18_ = true                   L_19_ = L_19_..'"'             elseif L_18_ == true and L_20_arg1 == '"' then                   L_18_ = false                   L_19_ = L_19_..'"'             end             if L_18_ == true and L_20_arg1 ~= '"' then                   L_19_ = L_19_..L_20_arg1             end             if L_18_ == false and L_20_arg1 == '"' then             elseif L_20_arg1 == "\n" and L_18_ == false then                   L_19_ = L_19_.."\n"             elseif L_20_arg1 == "\t" and L_18_ == false then                   L_19_ = L_19_.."\t"             elseif L_18_ == false then                   L_19_ = L_19_.." "             end       end)       return L_19_ end function G_3_(L_21_arg1)       local L_22_ = false       local L_23_ = ""       L_21_arg1:gsub('\46', function(L_24_arg1)             if L_24_arg1 == "'" and L_22_ == false then                   L_22_ = true                   L_23_ = L_23_.."'"             elseif L_22_ == true and L_24_arg1 == "'" then                   L_22_ = false                   L_23_ = L_23_.."'"             end             if L_22_ == true and L_24_arg1 ~= "'" then                   L_23_ = L_23_..L_24_arg1             end             if L_22_ == false and L_24_arg1 == "'" then             elseif L_24_arg1 == "\n" and L_22_ == false then                   L_23_ = L_23_.."\n"             elseif L_24_arg1 == "\t" and L_22_ == false then                   L_23_ = L_23_.."\t"             elseif L_22_ == false then                   L_23_ = L_23_.." "             end       end)       return L_23_ end function G_4_(L_25_arg1)       local L_26_ = false       local L_27_ = ""       local L_28_ = 0       L_25_arg1:gsub('\46', function(L_29_arg1)             if L_25_arg1:sub(L_28_, L_28_ + 1) == '[[' and L_26_ == false then                   L_26_ = true                   L_27_ = L_27_.."["             elseif L_26_ == true and L_25_arg1:sub(L_28_, L_28_ + 1) == ']]' then                   L_26_ = false                   L_27_ = L_27_.."]"             end             if L_26_ == true and L_25_arg1:sub(L_28_, L_28_ + 1) ~= ']]' then                   L_27_ = L_27_..L_29_arg1             end             if L_29_arg1 == "\n" and L_26_ == false then                   L_27_ = L_27_.."\n"             end             if L_29_arg1 == "\t" and L_26_ == false then                   L_27_ = L_27_.."\t"             end             if L_26_ == false then                   L_27_ = L_27_.." "             end             L_28_ = L_28_ + 1       end)       return L_27_ end function G_5_(L_30_arg1)       local L_31_ = false       local L_32_ = ""       local L_33_ = 0       L_30_arg1:gsub('\46', function(L_34_arg1)             if L_30_arg1:sub(L_33_, L_33_ + 1) == '--' and L_31_ == false then                   L_31_ = true                   L_32_ = L_32_..'-'             elseif L_31_ == true and L_34_arg1 == '\n' then                   L_31_ = false             end             if L_31_ == true then                   L_32_ = L_32_..L_34_arg1             end             if L_31_ == false and L_30_arg1:sub(L_33_, L_33_ + 1) == '--' then             elseif L_34_arg1 == "\n" and L_31_ == false then                   L_32_ = L_32_.."\n"             elseif L_34_arg1 == "\t" and L_31_ == false then                   L_32_ = L_32_.."\t"             elseif L_31_ == false then                   L_32_ = L_32_.." "             end             L_33_ = L_33_ + 1       end)       return L_32_:sub(2) end function G_6_(L_35_arg1)       local L_36_ = {             ["="] = true,             ["."] = true,             [","] = true,             ["("] = true,             [")"] = true,             ["["] = true,             ["]"] = true,             ["{"] = true,             ["}"] = true,             [":"] = true,             ["*"] = true,             ["/"] = true,             ["+"] = true,             ["-"] = true,             ["%"] = true,             [";"] = true,             ["~"] = true       }       local L_37_ = ""       local L_38_ = L_35_arg1:gsub("\46", function(L_39_arg1)             if L_36_[L_39_arg1] ~= nil then                   L_37_ = L_37_..L_39_arg1             elseif L_39_arg1 == "\n" then                   L_37_ = L_37_..L_39_arg1             elseif L_39_arg1 == "\t" then                   L_37_ = L_37_..L_39_arg1             else                   L_37_ = L_37_.." "             end       end)       return L_37_ end function G_7_(L_40_arg1)       if typeof(L_40_arg1) == "number" then             L_40_arg1 = tostring(L_40_arg1)       end       local L_41_ = ""       local L_42_ = L_40_arg1:gsub("\46", function(L_43_arg1)             if tonumber(L_43_arg1) then                   L_41_ = L_41_..L_43_arg1             elseif L_43_arg1 == "\n" then                   L_41_ = L_41_..L_43_arg1             elseif L_43_arg1 == "\t" then                   L_41_ = L_41_..L_43_arg1             else                   L_41_ = L_41_.." "             end       end)       return L_41_ end function G_8_(L_44_arg1)       local L_45_ = false       local L_46_ = ""       local L_47_ = 0       L_44_arg1:gsub('\46', function(L_48_arg1)             if L_44_arg1:sub(L_47_, L_47_ + 3) == '--[[' and L_45_ == false then                   L_45_ = true                   L_46_ = L_46_..'-'             elseif L_45_ == true and L_44_arg1:sub(L_47_, L_47_ + 1) == ']]' then                   L_45_ = false                   L_46_ = L_46_.."]"             end             if L_45_ == true and L_44_arg1:sub(L_47_, L_47_ + 1) ~= "]]" then                   L_46_ = L_46_..L_48_arg1             end             if L_45_ == false and L_44_arg1:sub(L_47_, L_47_ + 1) == '--' then             elseif L_48_arg1 == "\n" and L_45_ == false then                   L_46_ = L_46_.."\n"             elseif L_48_arg1 == "\t" and L_45_ == false then                   L_46_ = L_46_.."\t"             elseif L_45_ == false then                   L_46_ = L_46_.." "             end             L_47_ = L_47_ + 1       end)       return L_46_:sub(2) end local function L_5_func(L_49_arg1)       local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       local L_52_ = L_50_ - L_51_       if L_52_ < 0 then             L_52_ = 0       end       local L_53_ = Vector2.new(L_49_arg1.CanvasPosition.X, L_52_)       return L_53_ end print(G_5_'s') wait(.2) local L_6_ = 20 L_1_.Changed:Connect(function()       local L_54_ = L_1_.Comments_       local L_55_ = L_1_.Comments2_       local L_56_ = L_1_.Tokens_       local L_57_ = L_1_.Numbers_       local L_58_ = L_1_.Strings_       local L_59_ = L_1_.Strings2_       local L_60_ = L_1_.Strings3_       local L_61_ = L_1_.Keywords_       local L_62_ = L_1_.Globals_       L_54_.Text = " "..G_5_(L_1_.Text)       L_55_.Text = ""..G_8_(L_1_.Text)       L_58_.Text = G_2_(L_1_.Text)       L_59_.Text = G_3_(L_1_.Text)       L_60_.Text = G_4_(L_1_.Text):sub(2)       L_61_.Text = G_1_(L_1_.Text, L_4_)       L_62_.Text = G_1_(L_1_.Text, L_3_)       L_56_.Text = G_6_(L_1_.Text)       L_57_.Text = G_7_(L_1_.Text)       local L_63_ = 1       L_1_.Text:gsub('\n', function()             L_63_ = L_63_ + 1       end)       L_1_.Parent.Lines.Text = ""       for L_64_forvar1 = 1, L_63_ do             L_1_.Parent.Lines.Text = L_1_.Parent.Lines.Text..L_64_forvar1.."\n"       end       L_1_.Parent.CanvasSize = (UDim2.new(0, L_1_.TextBounds.X + 15 + 5, 0, L_1_.TextBounds.Y))       if L_1_.Parent.CanvasPosition.Y == L_2_.Y then             L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       else             L_2_ = L_5_func(L_1_.Parent)       end end) L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       wait(.1)       game.TweenService:Create(L_1_.Parent, TweenInfo.new(.1, Enum.EasingStyle.Bounce), {             CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, L_6_)       }):Play()       L_6_ = L_6_ + 5       wait(1)       L_6_ = L_6_ - 5 end) L_1_.MouseWheelForward:Connect(function(L_67_arg1, L_68_arg2)       wait(.1)       game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Bounce), {             CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, -L_6_)       }):Play()       L_6_ = L_6_ + 5       wait(1)       L_6_ = L_6_ - 5 end)
 end
-local function WINWDPS_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.Close.LocalScript
+local function CHHKSGG_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.Close.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Close"]
@@ -1518,19 +1519,19 @@ local function WINWDPS_fake_script() -- Fake Script: StarterGui.OriBox.Developme
 	end)
 end
 
-coroutine.wrap(RIZD_fake_script)()
-coroutine.wrap(ZMOEZ_fake_script)()
-coroutine.wrap(WDXQW_fake_script)()
-coroutine.wrap(EDUY_fake_script)()
-coroutine.wrap(TLYH_fake_script)()
-coroutine.wrap(KOQHUPW_fake_script)()
-coroutine.wrap(SQQF_fake_script)()
-coroutine.wrap(HGRMAY_fake_script)()
-coroutine.wrap(IHVTQ_fake_script)()
-coroutine.wrap(FUPWLCG_fake_script)()
-coroutine.wrap(COLDI_fake_script)()
-coroutine.wrap(DXAU_fake_script)()
-coroutine.wrap(NURCRH_fake_script)()
-coroutine.wrap(UQMN_fake_script)()
-coroutine.wrap(HJZKL_fake_script)()
-coroutine.wrap(WINWDPS_fake_script)()
+coroutine.wrap(GCYSG_fake_script)()
+coroutine.wrap(XVOUA_fake_script)()
+coroutine.wrap(EMZRD_fake_script)()
+coroutine.wrap(TZZFKB_fake_script)()
+coroutine.wrap(DNOZAYP_fake_script)()
+coroutine.wrap(OXXL_fake_script)()
+coroutine.wrap(YVSPIOD_fake_script)()
+coroutine.wrap(FZAQIIJ_fake_script)()
+coroutine.wrap(PLTNGI_fake_script)()
+coroutine.wrap(AMTSWJJ_fake_script)()
+coroutine.wrap(XLORDPP_fake_script)()
+coroutine.wrap(NJZFI_fake_script)()
+coroutine.wrap(WDMJZ_fake_script)()
+coroutine.wrap(BNLIUO_fake_script)()
+coroutine.wrap(AWUX_fake_script)()
+coroutine.wrap(CHHKSGG_fake_script)()
