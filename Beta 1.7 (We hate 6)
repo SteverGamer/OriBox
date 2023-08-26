@@ -127,7 +127,7 @@ local Converted = {
 
 Converted["_OriBoxBETA1.7"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_OriBoxBETA1.7"].Name = "OriBoxBETA1.7"
-Converted["_OriBoxBETA1.7"].Parent = game.Players.LocalPlayer.StarterGui
+Converted["_OriBoxBETA1.7"].Parent = game.Players.LocalPlayer.PlayerGui
 
 Converted["_Bg"].BackgroundColor3 = Color3.fromRGB(48.000000938773155, 48.000000938773155, 48.000000938773155)
 Converted["_Bg"].Position = UDim2.new(0.374417424, 0, 0.333862513, 0)
