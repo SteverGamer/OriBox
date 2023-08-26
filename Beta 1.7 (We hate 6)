@@ -15,86 +15,80 @@ local Converted = {
 	["_UIStroke"] = Instance.new("UIStroke");
 	["_UIGradient"] = Instance.new("UIGradient");
 	["_TextLabel"] = Instance.new("TextLabel");
-	["_LegalMumbo"] = Instance.new("TextButton");
+	["_NewOriBox"] = Instance.new("Frame");
 	["_UICorner3"] = Instance.new("UICorner");
-	["_LocalScript1"] = Instance.new("LocalScript");
-	["_LegalShit"] = Instance.new("ImageLabel");
 	["_UIStroke1"] = Instance.new("UIStroke");
 	["_UIGradient1"] = Instance.new("UIGradient");
-	["_NewOriBox"] = Instance.new("Frame");
-	["_UICorner4"] = Instance.new("UICorner");
-	["_UIStroke2"] = Instance.new("UIStroke");
-	["_UIGradient2"] = Instance.new("UIGradient");
+	["_LocalScript1"] = Instance.new("LocalScript");
 	["_LocalScript2"] = Instance.new("LocalScript");
-	["_LocalScript3"] = Instance.new("LocalScript");
 	["_Loader"] = Instance.new("ModuleScript");
 	["_ButtonSplitter"] = Instance.new("Frame");
 	["_Button"] = Instance.new("TextLabel");
 	["_ButtonName"] = Instance.new("TextBox");
-	["_UICorner5"] = Instance.new("UICorner");
+	["_UICorner4"] = Instance.new("UICorner");
 	["_SliderSplitter"] = Instance.new("Frame");
 	["_Toggle"] = Instance.new("TextLabel");
 	["_SliderName"] = Instance.new("TextBox");
-	["_UICorner6"] = Instance.new("UICorner");
+	["_UICorner5"] = Instance.new("UICorner");
 	["_SliderVName"] = Instance.new("TextBox");
-	["_UICorner7"] = Instance.new("UICorner");
+	["_UICorner6"] = Instance.new("UICorner");
 	["_SliderMin"] = Instance.new("TextBox");
-	["_UICorner8"] = Instance.new("UICorner");
+	["_UICorner7"] = Instance.new("UICorner");
 	["_SliderMax"] = Instance.new("TextBox");
-	["_UICorner9"] = Instance.new("UICorner");
+	["_UICorner8"] = Instance.new("UICorner");
 	["_SliderDefualt"] = Instance.new("TextBox");
-	["_UICorner10"] = Instance.new("UICorner");
+	["_UICorner9"] = Instance.new("UICorner");
 	["_SliderIncr"] = Instance.new("TextBox");
-	["_UICorner11"] = Instance.new("UICorner");
+	["_UICorner10"] = Instance.new("UICorner");
 	["_Splitter"] = Instance.new("Frame");
 	["_WindowButton"] = Instance.new("TextButton");
+	["_UICorner11"] = Instance.new("UICorner");
+	["_LocalScript3"] = Instance.new("LocalScript");
+	["_TabButton"] = Instance.new("TextButton");
 	["_UICorner12"] = Instance.new("UICorner");
 	["_LocalScript4"] = Instance.new("LocalScript");
-	["_TabButton"] = Instance.new("TextButton");
+	["_ButtonButton"] = Instance.new("TextButton");
 	["_UICorner13"] = Instance.new("UICorner");
 	["_LocalScript5"] = Instance.new("LocalScript");
-	["_ButtonButton"] = Instance.new("TextButton");
+	["_CodeButton"] = Instance.new("TextButton");
 	["_UICorner14"] = Instance.new("UICorner");
 	["_LocalScript6"] = Instance.new("LocalScript");
-	["_CodeButton"] = Instance.new("TextButton");
+	["_ToggleButton"] = Instance.new("TextButton");
 	["_UICorner15"] = Instance.new("UICorner");
 	["_LocalScript7"] = Instance.new("LocalScript");
-	["_ToggleButton"] = Instance.new("TextButton");
+	["_SliderButton"] = Instance.new("TextButton");
 	["_UICorner16"] = Instance.new("UICorner");
 	["_LocalScript8"] = Instance.new("LocalScript");
-	["_SliderButton"] = Instance.new("TextButton");
+	["_TextBoxButton"] = Instance.new("TextButton");
 	["_UICorner17"] = Instance.new("UICorner");
 	["_LocalScript9"] = Instance.new("LocalScript");
-	["_TextBoxButton"] = Instance.new("TextButton");
+	["_SourceButton"] = Instance.new("TextButton");
 	["_UICorner18"] = Instance.new("UICorner");
 	["_LocalScript10"] = Instance.new("LocalScript");
-	["_SourceButton"] = Instance.new("TextButton");
-	["_UICorner19"] = Instance.new("UICorner");
-	["_LocalScript11"] = Instance.new("LocalScript");
 	["_TabSplitter"] = Instance.new("Frame");
 	["_Tab"] = Instance.new("TextLabel");
 	["_TabName"] = Instance.new("TextBox");
-	["_UICorner20"] = Instance.new("UICorner");
+	["_UICorner19"] = Instance.new("UICorner");
 	["_TextBoxSplitter"] = Instance.new("Frame");
 	["_Toggle1"] = Instance.new("TextLabel");
 	["_SliderName1"] = Instance.new("TextBox");
-	["_UICorner21"] = Instance.new("UICorner");
+	["_UICorner20"] = Instance.new("UICorner");
 	["_SliderDefualt1"] = Instance.new("TextBox");
-	["_UICorner22"] = Instance.new("UICorner");
+	["_UICorner21"] = Instance.new("UICorner");
 	["_ToggleSplitter"] = Instance.new("Frame");
 	["_Toggle2"] = Instance.new("TextLabel");
 	["_ToggleName"] = Instance.new("TextBox");
-	["_UICorner23"] = Instance.new("UICorner");
+	["_UICorner22"] = Instance.new("UICorner");
 	["_WindowSplitter"] = Instance.new("Frame");
 	["_Window"] = Instance.new("TextLabel");
 	["_WinName"] = Instance.new("TextBox");
-	["_UICorner24"] = Instance.new("UICorner");
+	["_UICorner23"] = Instance.new("UICorner");
 	["_Option"] = Instance.new("StringValue");
 	["_Title"] = Instance.new("TextLabel");
-	["_UIGradient3"] = Instance.new("UIGradient");
+	["_UIGradient2"] = Instance.new("UIGradient");
 	["_UISource"] = Instance.new("ScrollingFrame");
-	["_UIStroke3"] = Instance.new("UIStroke");
-	["_UIGradient4"] = Instance.new("UIGradient");
+	["_UIStroke2"] = Instance.new("UIStroke");
+	["_UIGradient3"] = Instance.new("UIGradient");
 	["_TextBox1"] = Instance.new("TextBox");
 	["_NumOfLines"] = Instance.new("TextLabel");
 	["_LineIncreaser"] = Instance.new("LocalScript");
@@ -113,13 +107,13 @@ local Converted = {
 	["_Comments_"] = Instance.new("TextLabel");
 	["_Comments2_"] = Instance.new("TextLabel");
 	["_Lines"] = Instance.new("TextLabel");
-	["_UIStroke4"] = Instance.new("UIStroke");
-	["_UIGradient5"] = Instance.new("UIGradient");
+	["_UIStroke3"] = Instance.new("UIStroke");
+	["_UIGradient4"] = Instance.new("UIGradient");
 	["_Button1"] = Instance.new("TextLabel");
 	["_MainScript"] = Instance.new("LocalScript");
 	["_Close"] = Instance.new("TextButton");
-	["_LocalScript12"] = Instance.new("LocalScript");
-	["_UICorner25"] = Instance.new("UICorner");
+	["_LocalScript11"] = Instance.new("LocalScript");
+	["_UICorner24"] = Instance.new("UICorner");
 	["_TextLabel1"] = Instance.new("TextLabel");
 }
 
@@ -127,14 +121,14 @@ local Converted = {
 
 Converted["_OriBoxBETA1.7"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_OriBoxBETA1.7"].Name = "OriBoxBETA1.7"
-Converted["_OriBoxBETA1.7"].Parent = game.Players.LocalPlayer.PlayerGui
+Converted["_OriBoxBETA1.7"].Parent = game.CoreGui
 
 Converted["_Bg"].BackgroundColor3 = Color3.fromRGB(48.000000938773155, 48.000000938773155, 48.000000938773155)
-Converted["_Bg"].Position = UDim2.new(0.374417424, 0, 0.333862513, 0)
+Converted["_Bg"].Position = UDim2.new(0.351371378, 0, 0.344444513, 0)
 Converted["_Bg"].Size = UDim2.new(0, 400, 0, 250)
-Converted["_Bg"].Visible = false
 Converted["_Bg"].Name = "Bg"
 Converted["_Bg"].Parent = Converted["_OriBoxBETA1.7"]
+Converted["_Bg"].Visible = false
 
 Converted["_UICorner"].CornerRadius = UDim.new(0, 13)
 Converted["_UICorner"].Parent = Converted["_Bg"]
@@ -147,7 +141,7 @@ Converted["_Keybg"].Parent = Converted["_Bg"]
 
 Converted["_TextBox"].Font = Enum.Font.Ubuntu
 Converted["_TextBox"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
-Converted["_TextBox"].PlaceholderText = "Key here"
+Converted["_TextBox"].PlaceholderText = "Key here -- 2jn58sn28"
 Converted["_TextBox"].Text = ""
 Converted["_TextBox"].TextColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextBox"].TextScaled = true
@@ -194,60 +188,27 @@ Converted["_TextLabel"].Position = UDim2.new(0.25, 0, 0.0439999998, 0)
 Converted["_TextLabel"].Size = UDim2.new(0, 200, 0, 50)
 Converted["_TextLabel"].Parent = Converted["_Bg"]
 
-Converted["_LegalMumbo"].Font = Enum.Font.Unknown
-Converted["_LegalMumbo"].Text = "Legal IP stuff"
-Converted["_LegalMumbo"].TextColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
-Converted["_LegalMumbo"].TextSize = 16
-Converted["_LegalMumbo"].TextWrapped = true
-Converted["_LegalMumbo"].BackgroundColor3 = Color3.fromRGB(62.00000010430813, 62.00000010430813, 62.00000010430813)
-Converted["_LegalMumbo"].Position = UDim2.new(0.00249999994, 0, 0.69599998, 0)
-Converted["_LegalMumbo"].Size = UDim2.new(0, 104, 0, 40)
-Converted["_LegalMumbo"].Visible = false
-Converted["_LegalMumbo"].Name = "LegalMumbo"
-Converted["_LegalMumbo"].Parent = Converted["_Bg"]
+Converted["_NewOriBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_NewOriBox"].Position = UDim2.new(0.011119348, 0, 0.0296296291, 0)
+Converted["_NewOriBox"].Size = UDim2.new(0, 394, 0, 761)
+Converted["_NewOriBox"].Visible = true
+Converted["_NewOriBox"].Name = "NewOriBox"
+Converted["_NewOriBox"].Parent = Converted["_OriBoxBETA1.7"]
 
-Converted["_UICorner3"].Parent = Converted["_LegalMumbo"]
-
-Converted["_LegalShit"].Image = "http://www.roblox.com/asset/?id=13565928688"
-Converted["_LegalShit"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_LegalShit"].Position = UDim2.new(-1.02346158, 0, -7.54910326, 0)
-Converted["_LegalShit"].Size = UDim2.new(0, 610, 0, 100)
-Converted["_LegalShit"].Name = "LegalShit"
-Converted["_LegalShit"].Parent = Converted["_LegalMumbo"]
+Converted["_UICorner3"].CornerRadius = UDim.new(0, 13)
+Converted["_UICorner3"].Parent = Converted["_NewOriBox"]
 
 Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke1"].Thickness = 5
-Converted["_UIStroke1"].Parent = Converted["_LegalShit"]
+Converted["_UIStroke1"].Parent = Converted["_NewOriBox"]
 
 Converted["_UIGradient1"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
 	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
 	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
 }
+Converted["_UIGradient1"].Rotation = 90
 Converted["_UIGradient1"].Parent = Converted["_UIStroke1"]
-
-Converted["_NewOriBox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_NewOriBox"].Position = UDim2.new(0.0121481549, 0, 0.0214995481, 0)
-Converted["_NewOriBox"].Size = UDim2.new(0, 394, 0, 761)
-Converted["_NewOriBox"].Visible = false
-Converted["_NewOriBox"].AutoLocalize = false
-Converted["_NewOriBox"].Name = "NewOriBox"
-Converted["_NewOriBox"].Parent = Converted["_OriBoxBETA1.7"]
-
-Converted["_UICorner4"].CornerRadius = UDim.new(0, 13)
-Converted["_UICorner4"].Parent = Converted["_NewOriBox"]
-
-Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
-Converted["_UIStroke2"].Thickness = 5
-Converted["_UIStroke2"].Parent = Converted["_NewOriBox"]
-
-Converted["_UIGradient2"].Color = ColorSequence.new{
-	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
-	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
-}
-Converted["_UIGradient2"].Rotation = 90
-Converted["_UIGradient2"].Parent = Converted["_UIStroke2"]
 
 Converted["_ButtonSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_ButtonSplitter"].BorderSizePixel = 0
@@ -283,8 +244,8 @@ Converted["_ButtonName"].Size = UDim2.new(0, 49, 0, 13)
 Converted["_ButtonName"].Name = "ButtonName"
 Converted["_ButtonName"].Parent = Converted["_ButtonSplitter"]
 
-Converted["_UICorner5"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner5"].Parent = Converted["_ButtonName"]
+Converted["_UICorner4"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner4"].Parent = Converted["_ButtonName"]
 
 Converted["_SliderSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_SliderSplitter"].BorderSizePixel = 0
@@ -320,8 +281,8 @@ Converted["_SliderName"].Size = UDim2.new(0, 44, 0, 18)
 Converted["_SliderName"].Name = "SliderName"
 Converted["_SliderName"].Parent = Converted["_SliderSplitter"]
 
-Converted["_UICorner6"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner6"].Parent = Converted["_SliderName"]
+Converted["_UICorner5"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner5"].Parent = Converted["_SliderName"]
 
 Converted["_SliderVName"].Font = Enum.Font.Ubuntu
 Converted["_SliderVName"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
@@ -337,8 +298,8 @@ Converted["_SliderVName"].Size = UDim2.new(0, 44, 0, 21)
 Converted["_SliderVName"].Name = "SliderVName"
 Converted["_SliderVName"].Parent = Converted["_SliderSplitter"]
 
-Converted["_UICorner7"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner7"].Parent = Converted["_SliderVName"]
+Converted["_UICorner6"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner6"].Parent = Converted["_SliderVName"]
 
 Converted["_SliderMin"].Font = Enum.Font.Ubuntu
 Converted["_SliderMin"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
@@ -354,8 +315,8 @@ Converted["_SliderMin"].Size = UDim2.new(0, 44, 0, 21)
 Converted["_SliderMin"].Name = "SliderMin"
 Converted["_SliderMin"].Parent = Converted["_SliderSplitter"]
 
-Converted["_UICorner8"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner8"].Parent = Converted["_SliderMin"]
+Converted["_UICorner7"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner7"].Parent = Converted["_SliderMin"]
 
 Converted["_SliderMax"].Font = Enum.Font.Ubuntu
 Converted["_SliderMax"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
@@ -371,8 +332,8 @@ Converted["_SliderMax"].Size = UDim2.new(0, 44, 0, 23)
 Converted["_SliderMax"].Name = "SliderMax"
 Converted["_SliderMax"].Parent = Converted["_SliderSplitter"]
 
-Converted["_UICorner9"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner9"].Parent = Converted["_SliderMax"]
+Converted["_UICorner8"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner8"].Parent = Converted["_SliderMax"]
 
 Converted["_SliderDefualt"].Font = Enum.Font.Ubuntu
 Converted["_SliderDefualt"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
@@ -388,8 +349,8 @@ Converted["_SliderDefualt"].Size = UDim2.new(0, 44, 0, 23)
 Converted["_SliderDefualt"].Name = "SliderDefualt"
 Converted["_SliderDefualt"].Parent = Converted["_SliderSplitter"]
 
-Converted["_UICorner10"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner10"].Parent = Converted["_SliderDefualt"]
+Converted["_UICorner9"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner9"].Parent = Converted["_SliderDefualt"]
 
 Converted["_SliderIncr"].Font = Enum.Font.Ubuntu
 Converted["_SliderIncr"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
@@ -405,8 +366,8 @@ Converted["_SliderIncr"].Size = UDim2.new(0, 62, 0, 26)
 Converted["_SliderIncr"].Name = "SliderIncr"
 Converted["_SliderIncr"].Parent = Converted["_SliderSplitter"]
 
-Converted["_UICorner11"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner11"].Parent = Converted["_SliderIncr"]
+Converted["_UICorner10"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner10"].Parent = Converted["_SliderIncr"]
 
 Converted["_Splitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_Splitter"].BackgroundTransparency = 1
@@ -428,8 +389,8 @@ Converted["_WindowButton"].Size = UDim2.new(0, 69, 0, 23)
 Converted["_WindowButton"].Name = "WindowButton"
 Converted["_WindowButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner12"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner12"].Parent = Converted["_WindowButton"]
+Converted["_UICorner11"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner11"].Parent = Converted["_WindowButton"]
 
 Converted["_TabButton"].Font = Enum.Font.Ubuntu
 Converted["_TabButton"].Text = "Create"
@@ -443,8 +404,8 @@ Converted["_TabButton"].Size = UDim2.new(0, 69, 0, 23)
 Converted["_TabButton"].Name = "TabButton"
 Converted["_TabButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner13"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner13"].Parent = Converted["_TabButton"]
+Converted["_UICorner12"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner12"].Parent = Converted["_TabButton"]
 
 Converted["_ButtonButton"].Font = Enum.Font.Ubuntu
 Converted["_ButtonButton"].Text = "Create"
@@ -458,8 +419,8 @@ Converted["_ButtonButton"].Size = UDim2.new(0, 69, 0, 23)
 Converted["_ButtonButton"].Name = "ButtonButton"
 Converted["_ButtonButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner14"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner14"].Parent = Converted["_ButtonButton"]
+Converted["_UICorner13"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner13"].Parent = Converted["_ButtonButton"]
 
 Converted["_CodeButton"].Font = Enum.Font.Ubuntu
 Converted["_CodeButton"].Text = "Build Script"
@@ -472,8 +433,8 @@ Converted["_CodeButton"].Size = UDim2.new(0, 130, 0, 47)
 Converted["_CodeButton"].Name = "CodeButton"
 Converted["_CodeButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner15"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner15"].Parent = Converted["_CodeButton"]
+Converted["_UICorner14"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner14"].Parent = Converted["_CodeButton"]
 
 Converted["_ToggleButton"].Font = Enum.Font.Ubuntu
 Converted["_ToggleButton"].Text = "Create"
@@ -487,8 +448,8 @@ Converted["_ToggleButton"].Size = UDim2.new(0, 69, 0, 23)
 Converted["_ToggleButton"].Name = "ToggleButton"
 Converted["_ToggleButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner16"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner16"].Parent = Converted["_ToggleButton"]
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner15"].Parent = Converted["_ToggleButton"]
 
 Converted["_SliderButton"].Font = Enum.Font.Ubuntu
 Converted["_SliderButton"].Text = "Create"
@@ -502,8 +463,8 @@ Converted["_SliderButton"].Size = UDim2.new(0, 69, 0, 23)
 Converted["_SliderButton"].Name = "SliderButton"
 Converted["_SliderButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner17"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner17"].Parent = Converted["_SliderButton"]
+Converted["_UICorner16"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner16"].Parent = Converted["_SliderButton"]
 
 Converted["_TextBoxButton"].Font = Enum.Font.Ubuntu
 Converted["_TextBoxButton"].Text = "Create"
@@ -517,8 +478,8 @@ Converted["_TextBoxButton"].Size = UDim2.new(0, 69, 0, 23)
 Converted["_TextBoxButton"].Name = "TextBoxButton"
 Converted["_TextBoxButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner18"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner18"].Parent = Converted["_TextBoxButton"]
+Converted["_UICorner17"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner17"].Parent = Converted["_TextBoxButton"]
 
 Converted["_SourceButton"].Font = Enum.Font.Ubuntu
 Converted["_SourceButton"].Text = "UI Source"
@@ -531,8 +492,8 @@ Converted["_SourceButton"].Size = UDim2.new(0, 129, 0, 47)
 Converted["_SourceButton"].Name = "SourceButton"
 Converted["_SourceButton"].Parent = Converted["_Splitter"]
 
-Converted["_UICorner19"].CornerRadius = UDim.new(0, 5)
-Converted["_UICorner19"].Parent = Converted["_SourceButton"]
+Converted["_UICorner18"].CornerRadius = UDim.new(0, 5)
+Converted["_UICorner18"].Parent = Converted["_SourceButton"]
 
 Converted["_TabSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_TabSplitter"].BorderSizePixel = 0
@@ -568,8 +529,8 @@ Converted["_TabName"].Size = UDim2.new(0, 49, 0, 13)
 Converted["_TabName"].Name = "TabName"
 Converted["_TabName"].Parent = Converted["_TabSplitter"]
 
-Converted["_UICorner20"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner20"].Parent = Converted["_TabName"]
+Converted["_UICorner19"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner19"].Parent = Converted["_TabName"]
 
 Converted["_TextBoxSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_TextBoxSplitter"].BorderSizePixel = 0
@@ -605,8 +566,8 @@ Converted["_SliderName1"].Size = UDim2.new(0, 44, 0, 20)
 Converted["_SliderName1"].Name = "SliderName"
 Converted["_SliderName1"].Parent = Converted["_TextBoxSplitter"]
 
-Converted["_UICorner21"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner21"].Parent = Converted["_SliderName1"]
+Converted["_UICorner20"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner20"].Parent = Converted["_SliderName1"]
 
 Converted["_SliderDefualt1"].Font = Enum.Font.Ubuntu
 Converted["_SliderDefualt1"].PlaceholderColor3 = Color3.fromRGB(178.00000458955765, 178.00000458955765, 178.00000458955765)
@@ -622,8 +583,8 @@ Converted["_SliderDefualt1"].Size = UDim2.new(0, 44, 0, 20)
 Converted["_SliderDefualt1"].Name = "SliderDefualt"
 Converted["_SliderDefualt1"].Parent = Converted["_TextBoxSplitter"]
 
-Converted["_UICorner22"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner22"].Parent = Converted["_SliderDefualt1"]
+Converted["_UICorner21"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner21"].Parent = Converted["_SliderDefualt1"]
 
 Converted["_ToggleSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_ToggleSplitter"].BorderSizePixel = 0
@@ -659,8 +620,8 @@ Converted["_ToggleName"].Size = UDim2.new(0, 49, 0, 13)
 Converted["_ToggleName"].Name = "ToggleName"
 Converted["_ToggleName"].Parent = Converted["_ToggleSplitter"]
 
-Converted["_UICorner23"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner23"].Parent = Converted["_ToggleName"]
+Converted["_UICorner22"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner22"].Parent = Converted["_ToggleName"]
 
 Converted["_WindowSplitter"].BackgroundColor3 = Color3.fromRGB(72.00000330805779, 72.00000330805779, 72.00000330805779)
 Converted["_WindowSplitter"].BorderSizePixel = 0
@@ -696,8 +657,8 @@ Converted["_WinName"].Size = UDim2.new(0, 49, 0, 13)
 Converted["_WinName"].Name = "WinName"
 Converted["_WinName"].Parent = Converted["_WindowSplitter"]
 
-Converted["_UICorner24"].CornerRadius = UDim.new(0.100000001, 0)
-Converted["_UICorner24"].Parent = Converted["_WinName"]
+Converted["_UICorner23"].CornerRadius = UDim.new(0.100000001, 0)
+Converted["_UICorner23"].Parent = Converted["_WinName"]
 
 Converted["_Option"].Name = "Option"
 Converted["_Option"].Parent = Converted["_NewOriBox"]
@@ -715,13 +676,13 @@ Converted["_Title"].Size = UDim2.new(0, 320, 0, 50)
 Converted["_Title"].Name = "Title"
 Converted["_Title"].Parent = Converted["_NewOriBox"]
 
-Converted["_UIGradient3"].Color = ColorSequence.new{
+Converted["_UIGradient2"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(52.000000700354576, 52.000000700354576, 52.000000700354576)),
 	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(34.00000177323818, 34.00000177323818, 34.00000177323818)),
 	ColorSequenceKeypoint.new(1, Color3.fromRGB(52.000000700354576, 52.000000700354576, 52.000000700354576))
 }
-Converted["_UIGradient3"].Rotation = 45
-Converted["_UIGradient3"].Parent = Converted["_NewOriBox"]
+Converted["_UIGradient2"].Rotation = 45
+Converted["_UIGradient2"].Parent = Converted["_NewOriBox"]
 
 Converted["_UISource"].AutomaticCanvasSize = Enum.AutomaticSize.XY
 Converted["_UISource"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
@@ -733,16 +694,16 @@ Converted["_UISource"].Visible = false
 Converted["_UISource"].Name = "UISource"
 Converted["_UISource"].Parent = Converted["_OriBoxBETA1.7"]
 
-Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
-Converted["_UIStroke3"].Thickness = 5
-Converted["_UIStroke3"].Parent = Converted["_UISource"]
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke2"].Thickness = 5
+Converted["_UIStroke2"].Parent = Converted["_UISource"]
 
-Converted["_UIGradient4"].Color = ColorSequence.new{
+Converted["_UIGradient3"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
 	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
 	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
 }
-Converted["_UIGradient4"].Parent = Converted["_UIStroke3"]
+Converted["_UIGradient3"].Parent = Converted["_UIStroke2"]
 
 Converted["_TextBox1"].ClearTextOnFocus = false
 Converted["_TextBox1"].Font = Enum.Font.Ubuntu
@@ -958,16 +919,16 @@ Converted["_Lines"].ZIndex = 4
 Converted["_Lines"].Name = "Lines"
 Converted["_Lines"].Parent = Converted["_EditorFrame"]
 
-Converted["_UIStroke4"].Color = Color3.fromRGB(255, 255, 255)
-Converted["_UIStroke4"].Thickness = 5
-Converted["_UIStroke4"].Parent = Converted["_EditorFrame"]
+Converted["_UIStroke3"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke3"].Thickness = 5
+Converted["_UIStroke3"].Parent = Converted["_EditorFrame"]
 
-Converted["_UIGradient5"].Color = ColorSequence.new{
+Converted["_UIGradient4"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)),
 	ColorSequenceKeypoint.new(0.5, Color3.fromRGB(107.00000122189522, 107.00000122189522, 107.00000122189522)),
 	ColorSequenceKeypoint.new(1, Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871))
 }
-Converted["_UIGradient5"].Parent = Converted["_UIStroke4"]
+Converted["_UIGradient4"].Parent = Converted["_UIStroke3"]
 
 Converted["_Button1"].Font = Enum.Font.SourceSansBold
 Converted["_Button1"].Text = "Code Builder"
@@ -994,8 +955,8 @@ Converted["_Close"].Size = UDim2.new(0.0243190657, 0, 0.0537444949, 0)
 Converted["_Close"].Name = "Close"
 Converted["_Close"].Parent = Converted["_CodeHolder"]
 
-Converted["_UICorner25"].CornerRadius = UDim.new(0.200000003, 0)
-Converted["_UICorner25"].Parent = Converted["_Close"]
+Converted["_UICorner24"].CornerRadius = UDim.new(0.200000003, 0)
+Converted["_UICorner24"].Parent = Converted["_Close"]
 
 Converted["_TextLabel1"].Font = Enum.Font.FredokaOne
 Converted["_TextLabel1"].Text = "Close >"
@@ -1011,7 +972,7 @@ Converted["_TextLabel1"].Parent = Converted["_Close"]
 
 local fake_module_scripts = {}
 
-do -- Fake Module: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Loader
+do -- Fake Module: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Loader
     local script = Instance.new("ModuleScript")
     script.Name = "Loader"
     script.Parent = Converted["_NewOriBox"]
@@ -1099,16 +1060,17 @@ do -- Fake Module: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.Ne
 					loadstring(tostring(Val.Value))()
 				end
 			})
+			SS = script.Parent.SliderSplitter
 		elseif Option == "Slider" then --makes a slider
 			script.Parent.Parent.UISource.TextBox.Text = script.Parent.Parent.UISource.TextBox.Text..[[
 			Tab:AddSlider({
-		Name = "]]..SS.SliderName.Text..[[",
-				Min = ]]..tonumber(SS.SliderMin.Text)..[[,
-				Max = ]]..tonumber(SS.SliderMax.Text)..[[,
-				Default = ]]..tonumber(SS.SliderDefualt.Text)..[[,
-				Color = ]]..Color3.fromRGB(255,255,255)..[[,
-				Increment = ]]..tonumber(SS.SliderIncr.Text)..[[,
-			ValueName = "]]..SS.SliderVName.Text..[[",
+		Name = "]]..script.Parent.SliderSplitter.SliderName.Text..[[",
+				Min = ]]..tonumber(script.Parent.SliderSplitter.SliderMin.Text)..[[,
+				Max = ]]..tonumber(script.Parent.SliderSplitter.SliderMax.Text)..[[,
+				Default = ]]..tonumber(script.Parent.SliderSplitter.SliderDefualt.Text)..[[,
+				Color = ]]..tostring(Color3.fromRGB(255,255,255))..[[,
+				Increment = ]]..tonumber(script.Parent.SliderSplitter.SliderIncr.Text)..[[,
+			ValueName = "]]..script.Parent.SliderSplitter.SliderVName.Text..[[",
 				Callback = function(SliderVal)
 					]]..script.Parent.Parent.CodeHolder.EditorFrame.Source.Text..
 		
@@ -1125,15 +1087,14 @@ do -- Fake Module: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.Ne
 			Val.Name = Num
 			Val.Parent = script
 			Val.Value = Code
-			SS = script.Parent.SliderSplitter
 			Tab:AddSlider({
-				Name = SS.SliderName.Text, --all of the stuff below is all of the settings for the slider
-				Min = tonumber(SS.SliderMin.Text),
-				Max = tonumber(SS.SliderMax.Text),
-				Default = tonumber(SS.SliderDefualt.Text),
+				Name = script.Parent.SliderSplitter.SliderName.Text, --all of the stuff below is all of the settings for the slider
+				Min = tonumber(script.Parent.SliderSplitter.SliderMin.Text),
+				Max = tonumber(script.Parent.SliderSplitter.SliderMax.Text),
+				Default = tonumber(script.Parent.SliderSplitter.SliderDefualt.Text),
 				Color = Color3.fromRGB(255,255,255),
-				Increment = tonumber(SS.SliderIncr.Text),
-				ValueName = SS.SliderVName.Text,
+				Increment = tonumber(script.Parent.SliderSplitter.SliderIncr.Text),
+				ValueName = script.Parent.SliderSplitter.SliderVName.Text,
 				Callback = function(Slider)
 					SliderVal = Slider --makes a global value so the loadstring below can use this value
 					loadstring(tostring(Val.Value))()
@@ -1174,7 +1135,7 @@ end
 
 -- Fake Local Scripts:
 
-local function GCYSG_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.Submit.LocalScript
+local function PMUFVJ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.Submit.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Submit"]
@@ -1187,49 +1148,21 @@ local function GCYSG_fake_script() -- Fake Script: StarterGui.Client.OriBox.Deve
         return req(obj)
     end
 
-	local ip = tostring(game:HttpGet("https://api.ipify.org", true))
-	CorrectKey = tostring(ip)
-	BannedIPs = game:HttpGet("https://raw.githubusercontent.com/SteverGamer/OriBox/main/Banned%20IPs")
+	CorrectKey = "2lnsj28jw"
 	script.Parent.Activated:Connect(function()
-		print(BannedIPs)
-		if string.match(BannedIPs, ip) then
-			script.Parent.Parent.Keybg.TextBox.Text = ""
-			script.Parent.Parent.LegalMumbo.Visible = true
-			script.Parent.Parent.Keybg.TextBox.PlaceholderText = "dis ur ip? ("..ip..") yeah ur banned"
-			wait(3)
-			script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Key here"
+		local Key = script.Parent.Parent.Keybg.TextBox.Text
+		if Key == CorrectKey then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.NewOriBox.Visible = true
 		else
-			local Key = script.Parent.Parent.Keybg.TextBox.Text
-			if Key == CorrectKey then
-				script.Parent.Parent.Visible = false
-				script.Parent.Parent.Parent.NewOriBox.Visible = true
-			elseif Key == "Grab My IP" then
-				script.Parent.Parent.Keybg.TextBox.Text = tostring(ip)
-			else
-				script.Parent.Parent.Keybg.TextBox.Text = ""
-				script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Incorrect key"
-				wait(3)
-				script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Key here"
-			end
+			script.Parent.Parent.Keybg.TextBox.Text = ""
+			script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Incorrect key"
+			wait(3)
+			script.Parent.Parent.Keybg.TextBox.PlaceholderText = "Key here -- 2jn58sn28"
 		end
 	end)
 end
-local function XVOUA_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.Bg.LegalMumbo.LocalScript
-    local script = Instance.new("LocalScript")
-    script.Name = "LocalScript"
-    script.Parent = Converted["_LegalMumbo"]
-    local req = require
-    local require = function(obj)
-        local fake = fake_module_scripts[obj]
-        if fake then
-            return fake()
-        end
-        return req(obj)
-    end
-
-	
-end
-local function EMZRD_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
+local function VIARY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_NewOriBox"]
@@ -1244,7 +1177,7 @@ local function EMZRD_fake_script() -- Fake Script: StarterGui.Client.OriBox.Deve
 
 	script.Parent.Draggable = true --makes it draggable
 end
-local function TZZFKB_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
+local function ZLYOI_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_NewOriBox"]
@@ -1267,7 +1200,7 @@ local function TZZFKB_fake_script() -- Fake Script: StarterGui.Client.OriBox.Dev
 	--thats everything in the entire system/ui if you have any questions ask them on discord my discord will be opened on my other
 	--monitor
 end
-local function DNOZAYP_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.WindowButton.LocalScript
+local function DTNJ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.WindowButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_WindowButton"]
@@ -1287,7 +1220,7 @@ local function DNOZAYP_fake_script() -- Fake Script: StarterGui.Client.OriBox.De
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function OXXL_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TabButton.LocalScript
+local function NKCYLY_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TabButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TabButton"]
@@ -1307,7 +1240,7 @@ local function OXXL_fake_script() -- Fake Script: StarterGui.Client.OriBox.Devel
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function YVSPIOD_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ButtonButton.LocalScript
+local function JPUJA_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ButtonButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ButtonButton"]
@@ -1327,7 +1260,7 @@ local function YVSPIOD_fake_script() -- Fake Script: StarterGui.Client.OriBox.De
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function FZAQIIJ_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.CodeButton.LocalScript
+local function CMEIV_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.CodeButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_CodeButton"]
@@ -1346,7 +1279,7 @@ local function FZAQIIJ_fake_script() -- Fake Script: StarterGui.Client.OriBox.De
 		script.Parent.Parent.Parent.Parent.UISource.Visible = false
 	end)
 end
-local function PLTNGI_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ToggleButton.LocalScript
+local function SRZMH_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.ToggleButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_ToggleButton"]
@@ -1366,7 +1299,7 @@ local function PLTNGI_fake_script() -- Fake Script: StarterGui.Client.OriBox.Dev
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function AMTSWJJ_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SliderButton.LocalScript
+local function XNZSZ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SliderButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_SliderButton"]
@@ -1386,7 +1319,7 @@ local function AMTSWJJ_fake_script() -- Fake Script: StarterGui.Client.OriBox.De
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function XLORDPP_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TextBoxButton.LocalScript
+local function XCBRAPJ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.TextBoxButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_TextBoxButton"]
@@ -1406,7 +1339,7 @@ local function XLORDPP_fake_script() -- Fake Script: StarterGui.Client.OriBox.De
 		script.Parent.Parent.Parent.Option.Value = ""
 	end)
 end
-local function NJZFI_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SourceButton.LocalScript
+local function OLFSJ_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox.Splitter.SourceButton.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_SourceButton"]
@@ -1423,7 +1356,7 @@ local function NJZFI_fake_script() -- Fake Script: StarterGui.Client.OriBox.Deve
 		script.Parent.Parent.Parent.Parent.UISource.Visible = not script.Parent.Parent.Parent.Parent.UISource.Visible
 	end)
 end
-local function WDMJZ_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.NumOfLines.LineIncreaser
+local function XCBL_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.NumOfLines.LineIncreaser
     local script = Instance.new("LocalScript")
     script.Name = "LineIncreaser"
     script.Parent = Converted["_NumOfLines"]
@@ -1457,7 +1390,7 @@ local function WDMJZ_fake_script() -- Fake Script: StarterGui.Client.OriBox.Deve
 		Newline()
 	end
 end
-local function BNLIUO_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.LineIncreaser
+local function PWRJT_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.UISource.LineIncreaser
     local script = Instance.new("LocalScript")
     script.Name = "LineIncreaser"
     script.Parent = Converted["_UISource"]
@@ -1480,10 +1413,10 @@ local function BNLIUO_fake_script() -- Fake Script: StarterGui.Client.OriBox.Dev
 	end
 	
 	while task.wait() do
-		
+		Newline()
 	end
 end
-local function AWUX_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.MainScript
+local function VDMTG_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.MainScript
     local script = Instance.new("LocalScript")
     script.Name = "MainScript"
     script.Parent = Converted["_CodeHolder"]
@@ -1500,7 +1433,7 @@ local function AWUX_fake_script() -- Fake Script: StarterGui.Client.OriBox.Devel
 	--What' ya tryin do?
 	local L_1_ = script.Parent.EditorFrame.Source  local L_2_ = Vector2.new(0, 0)  local L_3_ = {       "getrawmetatable",       "game",       "workspace",       "script",       "math",       "string",       "table",       "print",       "wait",       "BrickColor",       "Color3",       "next",       "pairs",       "ipairs",       "select",       "unpack",       "Instance",       "Vector2",       "Vector3",       "CFrame",       "Ray",       "UDim2",       "Enum",       "assert",       "error",       "warn",       "tick",       "loadstring",       "_G",       "shared",       "getfenv",       "setfenv",       "newproxy",       "setmetatable",       "getmetatable",       "os",       "debug",       "pcall",       "ypcall",       "xpcall",       "rawequal",       "rawset",       "rawget",       "tonumber",       "tostring",       "type",       "typeof",       "_VERSION",       "coroutine",       "delay",       "require",       "spawn",       "LoadLibrary",       "settings",       "stats",       "time",       "UserSettings",       "version",       "Axes",       "ColorSequence",       "Faces",       "ColorSequenceKeypoint",       "NumberRange",       "NumberSequence",       "NumberSequenceKeypoint",       "gcinfo",       "elapsedTime",       "collectgarbage",       "PhysicalProperties",       "Rect",       "Region3",       "Region3int16",       "UDim",       "Vector2int16",       "Vector3int16" } local L_4_ = {       "and",       "break",       "do",       "else",       "elseif",       "end",       "false",       "for",       "function",       "goto",       "if",       "in",       "local",       "nil",       "not",       "or",       "repeat",       "return",       "then",       "true",       "until",       "while" } function G_1_(L_7_arg1, L_8_arg2)       local L_9_ = {}       for L_13_forvar1, L_14_forvar2 in next, L_8_arg2 do             L_9_[L_14_forvar2] = L_14_forvar2       end       local L_10_ = {             ["="] = true,             ["."] = true,             [","] = true,             ["("] = true,             [")"] = true,             ["["] = true,             ["]"] = true,             ["{"] = true,             ["}"] = true,             [":"] = true,             ["*"] = true,             ["/"] = true,             ["+"] = true,             ["-"] = true,             ["%"] = true,             [";"] = true,             ["~"] = true       }       local L_11_ = ""       local L_12_ = string.gsub(L_7_arg1, '\46', function(L_15_arg1)             if L_10_[L_15_arg1] then                   return "\32"             else                   return L_15_arg1             end       end)       L_11_ = string.gsub(L_12_, '%S+', function(L_16_arg1)             if L_9_[L_16_arg1] ~= nil then                   return L_9_[L_16_arg1]             else                   return (' '):rep(#L_16_arg1)             end       end)       return L_11_ end function G_2_(L_17_arg1)       local L_18_ = false       local L_19_ = ""       L_17_arg1:gsub('\46', function(L_20_arg1)             if L_20_arg1 == '"' and L_18_ == false then                   L_18_ = true                   L_19_ = L_19_..'"'             elseif L_18_ == true and L_20_arg1 == '"' then                   L_18_ = false                   L_19_ = L_19_..'"'             end             if L_18_ == true and L_20_arg1 ~= '"' then                   L_19_ = L_19_..L_20_arg1             end             if L_18_ == false and L_20_arg1 == '"' then             elseif L_20_arg1 == "\n" and L_18_ == false then                   L_19_ = L_19_.."\n"             elseif L_20_arg1 == "\t" and L_18_ == false then                   L_19_ = L_19_.."\t"             elseif L_18_ == false then                   L_19_ = L_19_.." "             end       end)       return L_19_ end function G_3_(L_21_arg1)       local L_22_ = false       local L_23_ = ""       L_21_arg1:gsub('\46', function(L_24_arg1)             if L_24_arg1 == "'" and L_22_ == false then                   L_22_ = true                   L_23_ = L_23_.."'"             elseif L_22_ == true and L_24_arg1 == "'" then                   L_22_ = false                   L_23_ = L_23_.."'"             end             if L_22_ == true and L_24_arg1 ~= "'" then                   L_23_ = L_23_..L_24_arg1             end             if L_22_ == false and L_24_arg1 == "'" then             elseif L_24_arg1 == "\n" and L_22_ == false then                   L_23_ = L_23_.."\n"             elseif L_24_arg1 == "\t" and L_22_ == false then                   L_23_ = L_23_.."\t"             elseif L_22_ == false then                   L_23_ = L_23_.." "             end       end)       return L_23_ end function G_4_(L_25_arg1)       local L_26_ = false       local L_27_ = ""       local L_28_ = 0       L_25_arg1:gsub('\46', function(L_29_arg1)             if L_25_arg1:sub(L_28_, L_28_ + 1) == '[[' and L_26_ == false then                   L_26_ = true                   L_27_ = L_27_.."["             elseif L_26_ == true and L_25_arg1:sub(L_28_, L_28_ + 1) == ']]' then                   L_26_ = false                   L_27_ = L_27_.."]"             end             if L_26_ == true and L_25_arg1:sub(L_28_, L_28_ + 1) ~= ']]' then                   L_27_ = L_27_..L_29_arg1             end             if L_29_arg1 == "\n" and L_26_ == false then                   L_27_ = L_27_.."\n"             end             if L_29_arg1 == "\t" and L_26_ == false then                   L_27_ = L_27_.."\t"             end             if L_26_ == false then                   L_27_ = L_27_.." "             end             L_28_ = L_28_ + 1       end)       return L_27_ end function G_5_(L_30_arg1)       local L_31_ = false       local L_32_ = ""       local L_33_ = 0       L_30_arg1:gsub('\46', function(L_34_arg1)             if L_30_arg1:sub(L_33_, L_33_ + 1) == '--' and L_31_ == false then                   L_31_ = true                   L_32_ = L_32_..'-'             elseif L_31_ == true and L_34_arg1 == '\n' then                   L_31_ = false             end             if L_31_ == true then                   L_32_ = L_32_..L_34_arg1             end             if L_31_ == false and L_30_arg1:sub(L_33_, L_33_ + 1) == '--' then             elseif L_34_arg1 == "\n" and L_31_ == false then                   L_32_ = L_32_.."\n"             elseif L_34_arg1 == "\t" and L_31_ == false then                   L_32_ = L_32_.."\t"             elseif L_31_ == false then                   L_32_ = L_32_.." "             end             L_33_ = L_33_ + 1       end)       return L_32_:sub(2) end function G_6_(L_35_arg1)       local L_36_ = {             ["="] = true,             ["."] = true,             [","] = true,             ["("] = true,             [")"] = true,             ["["] = true,             ["]"] = true,             ["{"] = true,             ["}"] = true,             [":"] = true,             ["*"] = true,             ["/"] = true,             ["+"] = true,             ["-"] = true,             ["%"] = true,             [";"] = true,             ["~"] = true       }       local L_37_ = ""       local L_38_ = L_35_arg1:gsub("\46", function(L_39_arg1)             if L_36_[L_39_arg1] ~= nil then                   L_37_ = L_37_..L_39_arg1             elseif L_39_arg1 == "\n" then                   L_37_ = L_37_..L_39_arg1             elseif L_39_arg1 == "\t" then                   L_37_ = L_37_..L_39_arg1             else                   L_37_ = L_37_.." "             end       end)       return L_37_ end function G_7_(L_40_arg1)       if typeof(L_40_arg1) == "number" then             L_40_arg1 = tostring(L_40_arg1)       end       local L_41_ = ""       local L_42_ = L_40_arg1:gsub("\46", function(L_43_arg1)             if tonumber(L_43_arg1) then                   L_41_ = L_41_..L_43_arg1             elseif L_43_arg1 == "\n" then                   L_41_ = L_41_..L_43_arg1             elseif L_43_arg1 == "\t" then                   L_41_ = L_41_..L_43_arg1             else                   L_41_ = L_41_.." "             end       end)       return L_41_ end function G_8_(L_44_arg1)       local L_45_ = false       local L_46_ = ""       local L_47_ = 0       L_44_arg1:gsub('\46', function(L_48_arg1)             if L_44_arg1:sub(L_47_, L_47_ + 3) == '--[[' and L_45_ == false then                   L_45_ = true                   L_46_ = L_46_..'-'             elseif L_45_ == true and L_44_arg1:sub(L_47_, L_47_ + 1) == ']]' then                   L_45_ = false                   L_46_ = L_46_.."]"             end             if L_45_ == true and L_44_arg1:sub(L_47_, L_47_ + 1) ~= "]]" then                   L_46_ = L_46_..L_48_arg1             end             if L_45_ == false and L_44_arg1:sub(L_47_, L_47_ + 1) == '--' then             elseif L_48_arg1 == "\n" and L_45_ == false then                   L_46_ = L_46_.."\n"             elseif L_48_arg1 == "\t" and L_45_ == false then                   L_46_ = L_46_.."\t"             elseif L_45_ == false then                   L_46_ = L_46_.." "             end             L_47_ = L_47_ + 1       end)       return L_46_:sub(2) end local function L_5_func(L_49_arg1)       local L_50_, L_51_ = L_49_arg1.CanvasSize.Y.Offset, L_49_arg1.AbsoluteWindowSize.Y       local L_52_ = L_50_ - L_51_       if L_52_ < 0 then             L_52_ = 0       end       local L_53_ = Vector2.new(L_49_arg1.CanvasPosition.X, L_52_)       return L_53_ end print(G_5_'s') wait(.2) local L_6_ = 20 L_1_.Changed:Connect(function()       local L_54_ = L_1_.Comments_       local L_55_ = L_1_.Comments2_       local L_56_ = L_1_.Tokens_       local L_57_ = L_1_.Numbers_       local L_58_ = L_1_.Strings_       local L_59_ = L_1_.Strings2_       local L_60_ = L_1_.Strings3_       local L_61_ = L_1_.Keywords_       local L_62_ = L_1_.Globals_       L_54_.Text = " "..G_5_(L_1_.Text)       L_55_.Text = ""..G_8_(L_1_.Text)       L_58_.Text = G_2_(L_1_.Text)       L_59_.Text = G_3_(L_1_.Text)       L_60_.Text = G_4_(L_1_.Text):sub(2)       L_61_.Text = G_1_(L_1_.Text, L_4_)       L_62_.Text = G_1_(L_1_.Text, L_3_)       L_56_.Text = G_6_(L_1_.Text)       L_57_.Text = G_7_(L_1_.Text)       local L_63_ = 1       L_1_.Text:gsub('\n', function()             L_63_ = L_63_ + 1       end)       L_1_.Parent.Lines.Text = ""       for L_64_forvar1 = 1, L_63_ do             L_1_.Parent.Lines.Text = L_1_.Parent.Lines.Text..L_64_forvar1.."\n"       end       L_1_.Parent.CanvasSize = (UDim2.new(0, L_1_.TextBounds.X + 15 + 5, 0, L_1_.TextBounds.Y))       if L_1_.Parent.CanvasPosition.Y == L_2_.Y then             L_1_.Parent.CanvasPosition = L_5_func(L_1_.Parent)       else             L_2_ = L_5_func(L_1_.Parent)       end end) L_1_.MouseWheelBackward:Connect(function(L_65_arg1, L_66_arg2)       wait(.1)       game.TweenService:Create(L_1_.Parent, TweenInfo.new(.1, Enum.EasingStyle.Bounce), {             CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, L_6_)       }):Play()       L_6_ = L_6_ + 5       wait(1)       L_6_ = L_6_ - 5 end) L_1_.MouseWheelForward:Connect(function(L_67_arg1, L_68_arg2)       wait(.1)       game.TweenService:Create(L_1_.Parent, TweenInfo.new(.5, Enum.EasingStyle.Bounce), {             CanvasPosition = L_1_.Parent.CanvasPosition + Vector2.new(0, -L_6_)       }):Play()       L_6_ = L_6_ + 5       wait(1)       L_6_ = L_6_ - 5 end)
 end
-local function CHHKSGG_fake_script() -- Fake Script: StarterGui.Client.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.Close.LocalScript
+local function JKZXI_fake_script() -- Fake Script: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.CodeHolder.Close.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Close"]
@@ -1519,19 +1452,18 @@ local function CHHKSGG_fake_script() -- Fake Script: StarterGui.Client.OriBox.De
 	end)
 end
 
-coroutine.wrap(GCYSG_fake_script)()
-coroutine.wrap(XVOUA_fake_script)()
-coroutine.wrap(EMZRD_fake_script)()
-coroutine.wrap(TZZFKB_fake_script)()
-coroutine.wrap(DNOZAYP_fake_script)()
-coroutine.wrap(OXXL_fake_script)()
-coroutine.wrap(YVSPIOD_fake_script)()
-coroutine.wrap(FZAQIIJ_fake_script)()
-coroutine.wrap(PLTNGI_fake_script)()
-coroutine.wrap(AMTSWJJ_fake_script)()
-coroutine.wrap(XLORDPP_fake_script)()
-coroutine.wrap(NJZFI_fake_script)()
-coroutine.wrap(WDMJZ_fake_script)()
-coroutine.wrap(BNLIUO_fake_script)()
-coroutine.wrap(AWUX_fake_script)()
-coroutine.wrap(CHHKSGG_fake_script)()
+coroutine.wrap(PMUFVJ_fake_script)()
+coroutine.wrap(VIARY_fake_script)()
+coroutine.wrap(ZLYOI_fake_script)()
+coroutine.wrap(DTNJ_fake_script)()
+coroutine.wrap(NKCYLY_fake_script)()
+coroutine.wrap(JPUJA_fake_script)()
+coroutine.wrap(CMEIV_fake_script)()
+coroutine.wrap(SRZMH_fake_script)()
+coroutine.wrap(XNZSZ_fake_script)()
+coroutine.wrap(XCBRAPJ_fake_script)()
+coroutine.wrap(OLFSJ_fake_script)()
+coroutine.wrap(XCBL_fake_script)()
+coroutine.wrap(PWRJT_fake_script)()
+coroutine.wrap(VDMTG_fake_script)()
+coroutine.wrap(JKZXI_fake_script)()
