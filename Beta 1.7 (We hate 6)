@@ -1068,7 +1068,7 @@ do -- Fake Module: StarterGui.OriBox.DevelopmentVersions.OriBoxBETA1.7.NewOriBox
 				Min = ]]..tonumber(script.Parent.SliderSplitter.SliderMin.Text)..[[,
 				Max = ]]..tonumber(script.Parent.SliderSplitter.SliderMax.Text)..[[,
 				Default = ]]..tonumber(script.Parent.SliderSplitter.SliderDefualt.Text)..[[,
-				Color = Color3.fromRGB(255,255,255)),
+				Color = Color3.fromRGB(255,255,255),
 				Increment = ]]..tonumber(script.Parent.SliderSplitter.SliderIncr.Text)..[[,
 			ValueName = "]]..script.Parent.SliderSplitter.SliderVName.Text..[[",
 				Callback = function(SliderVal)
